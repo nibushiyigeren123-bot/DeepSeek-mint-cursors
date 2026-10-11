@@ -10,6 +10,8 @@
 
 ## 下载与安装
 
+**补充：换完指针后，如果发现大小不对，再双击 `尺寸保持_开启.cmd` 即可。**
+
 整合安装包（含五档）：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-mint-cursors-v1.0.0.zip
 
 可选原始PNG编辑帧包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-editable-frames-v1.0.0.zip

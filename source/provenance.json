@@ -1,0 +1,52 @@
+{
+  "source_project": "E:\\cladue缓存\\CD协作小动画_20261009\\sources",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/design/character-standard.png",
+      "local": "deepseek_community_standard.png",
+      "sha256": "75972692391d451a8302b6aed9fcbe300fb5fbbc60db643127d15d6067f64019"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/ASSET_LICENSE.md",
+      "local": "ASSET_LICENSE.md",
+      "sha256": "6ec5e61796b95f10eec94d46ec48c287a708fabdd494241f0d1d6cc64864625c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/LICENSE",
+      "local": "LICENSE.txt",
+      "sha256": "a8191ae2c7517f8cb2326d37cd62f84cfd9c2e18cefe113077897c642dc7912b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/dense-idle.png",
+      "local": "dense-idle.png",
+      "sha256": "fdd3990fee0302d41d9809007f1303663440af299e0ff979e3b67bd777d934ef"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/dense-wave.png",
+      "local": "dense-wave.png",
+      "sha256": "d55956f8d50c321760cefa52d594fd93fd804a9c3efa22a0b371e4a601138246"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/dense-walk.png",
+      "local": "dense-walk.png",
+      "sha256": "e72df3791354f28f7e0b822c405d9ea5ba355d9288d07fead8e558b2cee49667"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/dense-jump.png",
+      "local": "dense-jump.png",
+      "sha256": "1b1f7879d628259fa2ed722a3aa12a67e16e93b6b99509c2069afea04aec2953"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/actions.png",
+      "local": "actions.png",
+      "sha256": "b3f5063653a5366f35f93e95a2717076571c67a390a99794c2b7fa35e155146b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/YunYueSama/codex-deepseek-pet/main/assets/whale/expressions.png",
+      "local": "expressions.png",
+      "sha256": "26a9b0edbad1ce1a39011f3daa37165a1dce2aff251f371deeba455807f377e1"
+    }
+  ],
+  "character_sample_sha256": "572dd297bf3f48b3e489920d06402ec79eab980701473a6cd9738c109a7a7108",
+  "art_modified": "Existing atlas frames extracted and recomposed into animated mouse cursors; character design unchanged."
+}

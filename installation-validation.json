@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "inf": {
+    "five_native_SetupAPI_installations_passed": true,
+    "active_registry_and_system_directory_isolated": true,
+    "active_cursors_changed": false
+  },
+  "entrypoints": {
+    "cases": 14,
+    "five_CMD_subprocesses_and_plain_PS1_default64_passed": true,
+    "all_17_apply_requests_and_size_checks": true,
+    "native_application_stubbed": true
+  },
+  "installer": {
+    "cases": [
+      "Register five complete schemes and preserve existing schemes",
+      "Apply DeepSeek 256px in isolated registry and write backup",
+      "Restore prior string, expandable-string, DWORD and missing values",
+      "Injected special-role failure reached; automatically restored prior registry and size",
+      "Injected refresh failure reached; automatically restored prior registry and size"
+    ],
+    "backup_restore_and_two_triggered_failures_passed": true,
+    "registry_and_native_calls_isolated": true
+  },
+  "keeper": {
+    "selection_cases": 13,
+    "real_ReadSelection_and_object_naming": true,
+    "compiled_locally": true,
+    "registry_and_root_isolated": true,
+    "foreign_and_mixed_schemes_rejected": true,
+    "resident_keeper_started": false
+  },
+  "new_package_live_install_or_login_startup_not_tested": true,
+  "user_current_system_cursors_unchanged": true
+}

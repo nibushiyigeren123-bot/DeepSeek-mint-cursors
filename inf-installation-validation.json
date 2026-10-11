@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "schemes": 5,
+  "native_setupapi_used": true,
+  "registry_and_Windows_destination_redirected_for_isolation": true,
+  "only_fixture_edit": "reserved DIRID 10 and its placeholders replaced by user DIRID 32768; all installation sections/files/roles unchanged",
+  "actual_Explorer_context_menu_not_automated": true,
+  "active_system_cursors_unchanged": true,
+  "roles_copied_and_registered": 85,
+  "no_executable_hooks": true,
+  "does_not_claim_runtime_size_changes": true,
+  "records": [
+    {
+      "inf": "安装_DeepSeek_32px.inf",
+      "sha256": "f39648cf651f712740011726214ab36df294398029db83257ff274e3588e0af2",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "DeepSeek Mint 32px"
+    },
+    {
+      "inf": "安装_DeepSeek_48px.inf",
+      "sha256": "ad9da2fe046e2cf42c97a2eb1fd6515df8207a2df48e5d046365ae4f4e98f30b",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "DeepSeek Mint 48px"
+    },
+    {
+      "inf": "安装_DeepSeek_64px.inf",
+      "sha256": "417f5ea473d65b0be29f2146c973f95667d96df738fcd8876887cb87ec4cb2f3",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "DeepSeek Mint 64px"
+    },
+    {
+      "inf": "安装_DeepSeek_128px.inf",
+      "sha256": "c5857f4edcf701c145e5a3814f524c15ea48d01a152f434233b79ea884da4ba6",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "DeepSeek Mint 128px"
+    },
+    {
+      "inf": "安装_DeepSeek_256px.inf",
+      "sha256": "c264542c83abe9dc40e29077c4855f2582df73c765f6d66961c3b1ad3080422b",
+      "actual_setupapi_DefaultInstall_succeeded": true,
+      "copied_files_and_registered_paths_verified": 17,
+      "scheme": "DeepSeek Mint 256px"
+    }
+  ]
+}

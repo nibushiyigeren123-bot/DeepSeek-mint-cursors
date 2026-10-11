@@ -1,0 +1,30 @@
+{
+  "seconds": 47.0,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "audio_codec": "aac",
+  "audio_hz": 48000,
+  "audio_channels": 2,
+  "loudness_lufs": -18.01,
+  "true_peak_dbtp": -7.54,
+  "fade_in_seconds": 0.7,
+  "fade_out_seconds": 3,
+  "music_start_seconds": 0,
+  "video_packet_hash": "SHA256=77cfa3b1a04f6c824fea2e44d3f84079dc038129be444f88e2be63cd930d83dc",
+  "picture_unchanged": true,
+  "full_decode_ok": true,
+  "video_input_sha256": "a32d817f62e52691e8756d3e53bad6249ab884867d8d44caff610b91f48d0a8e",
+  "music_input_sha256": "4bc699d0c98e1f150b1f04f576c12b0b963dea638d34b845b087fea35e424936",
+  "wav_sha256": "0cbaa2ef85544a224824b4f4be69d1e5519663fa6443db91a55e3994dd4d961e",
+  "output_sha256": "7d6242f6cf20c68bd804aa7f1ff3e594cd8cd23f126eaf51a3c36623c6792ff2",
+  "credit": "BGM: 放課後アフタースクール / watson (MusMus) https://musmus.main.jp/",
+  "music_page": "https://musmus.main.jp/music_img2.html#BGM-174",
+  "music_download": "https://musmus.main.jp/music/MusMus-BGM-174.mp3",
+  "terms": "https://musmus.main.jp/info.html",
+  "music_files_private_editing_only": true,
+  "audio_filters": "atrim=duration=47.0,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.7,afade=t=out:st=44.0:d=3,loudnorm=I=-18:TP=-1.5:LRA=11:measured_I=-9.52:measured_TP=0.60:measured_LRA=3.90:measured_thresh=-19.74:offset=0.05:linear=true",
+  "ffmpeg_version": "ffmpeg version 9.0.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+}

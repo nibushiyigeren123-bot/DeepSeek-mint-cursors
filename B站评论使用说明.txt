@@ -1,0 +1,21 @@
+DeepSeek小鲸鱼动态指针使用说明
+
+仓库与源码：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors
+五档整合安装包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-mint-cursors-v1.0.0.zip
+
+【补充】换完指针后，如果发现大小不对，再双击“尺寸保持_开启.cmd”即可。
+
+① 下载后完整解压，不要在压缩包里直接安装。
+② 双击“应用_DeepSeek_64px.cmd”，默认推荐64px；32/48/128/256都有独立CMD，喜欢哪档点哪档，更新全部17种状态。
+③ 首次安装一档后，手动双击“尺寸保持_开启.cmd”。组件在本机编译，并登记当前用户登录启动，用于Windows重载后恢复本包所选尺寸。
+④ 以后想换大小，直接双击目标尺寸CMD。不要拖Windows“鼠标指针大小”滑块，它可能复原成默认指针；误调后重新应用所需尺寸。
+
+习惯INF安装：右键对应“安装_DeepSeek_尺寸px.inf”→安装；Windows11可能需要先点“显示更多选项”。然后到“控制面板→鼠标→指针”选择对应DeepSeek Mint方案→应用，再手动开启尺寸保持。INF只复制文件和登记方案，不自动开启组件。
+
+关闭组件用“尺寸保持_关闭.cmd”；卸载组件用“尺寸保持_卸载.cmd”，指针文件和方案保留。“恢复安装前指针.cmd”会停止DeepSeek组件，恢复最新一次CMD安装前保存的整套系统指针状态。
+
+DeepSeek与Astra/sol各自使用独立安装目录和组件名字，可同时登记；Windows实际使用一套方案。压缩包不带预编译EXE，无需关闭系统安全防护。
+
+角色素材作者：YunYueSama
+原社区项目：https://github.com/YunYueSama/codex-deepseek-pet
+修改：透明图集取帧、布局缩放、动作编排与指针编码；角色设计保持原样。社区分享，非官方作品。
