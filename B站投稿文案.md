@@ -13,8 +13,8 @@
 整合包包含五档INF右键安装文件，也有每档单独的应用CMD。推荐安装一档后手动开启“尺寸保持”；以后要什么大小，直接双击对应尺寸CMD，不再拖Windows指针大小滑块。完整步骤见评论区说明。
 
 仓库与源码：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors
-五档整合包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-mint-cursors-v1.0.0.zip
-可选PNG编辑帧：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-editable-frames-v1.0.0.zip
+五档整合包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-install-v1.0.1.zip
+可选PNG编辑帧：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-png-frames-v1.0.1.zip
 姐妹指针：https://github.com/nibushiyigeren123-bot/astra-sol-mint-cursors
 
 角色素材作者：YunYueSama

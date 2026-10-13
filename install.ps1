@@ -147,7 +147,7 @@ if($Apply){
    throw "Could not apply exact cursor size for $role. Backup: $backup"
   }
   if(-not[DeepSeekCursorNative]::HasExactSize($systemIds[$role],$Size)){
-   throw "Windows did not retain the selected size for $role. Backup: $backup"
+   Write-Warning "Cursor bitmap size could not confirm $Size px for $role. Installation kept; actual display size depends on Windows. Backup: $backup"
   }
  }
  }catch{
@@ -160,5 +160,5 @@ if($Apply){
   }
   throw "Apply failed; previous cursor settings and size restored. $($applyError.Exception.Message)"
  }
- Write-Output "Applied $Character $Size px. All 17 live system cursor sizes verified. Previous settings: $backup"
+ Write-Output "Applied $Character $Size px. All 17 cursor replacements succeeded; requested pixel size is not a display-size guarantee. Previous settings: $backup"
 }else{Write-Output 'Registered cursor schemes only (-RegisterOnly). Run install.ps1 without arguments to apply the default 64px size.'}

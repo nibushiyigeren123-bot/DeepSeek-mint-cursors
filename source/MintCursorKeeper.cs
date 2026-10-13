@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 
 internal static class MintCursorKeeper {
- internal const string Version="1.0.0";
+ internal const string Version="1.0.1";
  internal const string RegistryPath=@"Control Panel\Cursors";
  internal const string ObjectPrefix="DeepSeekMintCursorKeeper";
  internal static readonly string[] Roles={"Arrow","Help","AppStarting","Wait","Crosshair","IBeam","NWPen","No","SizeNS","SizeWE","SizeNWSE","SizeNESW","SizeAll","UpArrow","Hand","Pin","Person"};
@@ -54,17 +54,19 @@ internal static class MintCursorKeeper {
   }
  }
  internal static bool StillSelected(Selection s){Selection now=ReadSelection();return now!=null&&now.Signature==s.Signature&&!File.Exists(Disabled);}
- internal static bool AllExact(Selection s){for(int i=0;i<17;i++){if(!Native.Exact(Native.Current(Ids[i]),s.Size))return false;}return true;}
- internal static bool Apply(Selection s){
+ internal static bool AllExact(Selection s){try{for(int i=0;i<17;i++){if(!Native.Exact(Native.Current(Ids[i]),s.Size))return false;}return true;}catch(InvalidOperationException){return false;}}
+ internal static bool Apply(Selection s,out bool sizeConfirmed){
+   sizeConfirmed=false;
   IntPtr[] owned=new IntPtr[17];bool touched=false;
   try{
-   for(int i=0;i<17;i++){owned[i]=Native.Load(s.Files[i],s.Size);if(owned[i]==IntPtr.Zero||!Native.Exact(owned[i],s.Size))throw new InvalidOperationException("Cannot load "+Roles[i]+" at "+s.Size+"px; error="+Marshal.GetLastWin32Error());}
+   for(int i=0;i<17;i++){owned[i]=Native.Load(s.Files[i],s.Size);if(owned[i]==IntPtr.Zero)throw new InvalidOperationException("Cannot load "+Roles[i]+" at "+s.Size+"px; error="+Marshal.GetLastWin32Error());}
    for(int i=0;i<17;i++){
     if(!StillSelected(s)){if(touched&&!Native.Reload())Log("Selection-change refresh failed; error="+Marshal.GetLastWin32Error());return false;}
     if(!Native.Replace(owned[i],Ids[i]))throw new InvalidOperationException("Cannot replace "+Roles[i]+"; error="+Marshal.GetLastWin32Error());
     owned[i]=IntPtr.Zero;touched=true;
    }
-   if(!StillSelected(s)||!AllExact(s)){if(!Native.Reload())Log("Final verification refresh failed; error="+Marshal.GetLastWin32Error());return false;}
+   if(!StillSelected(s)){if(!Native.Reload())Log("Final verification refresh failed; error="+Marshal.GetLastWin32Error());return false;}
+   sizeConfirmed=AllExact(s);
    return true;
   }catch{if(touched&&!Native.Reload())Log("Rollback refresh failed; error="+Marshal.GetLastWin32Error());throw;}
   finally{foreach(IntPtr handle in owned)if(handle!=IntPtr.Zero)Native.Free(handle);}
@@ -72,7 +74,7 @@ internal static class MintCursorKeeper {
  internal sealed class KeeperContext:ApplicationContext {
   private readonly System.Windows.Forms.Timer timer=new System.Windows.Forms.Timer();
   private readonly EventWaitHandle stop;
-  private string pending,lastApplied,lastState;private int sameTicks;private DateTime retryAfter=DateTime.MinValue;
+  private string pending,lastApplied,lastState;private bool sizeReadbackUnavailable;private int sameTicks;private DateTime retryAfter=DateTime.MinValue;
   internal KeeperContext(EventWaitHandle stopEvent){stop=stopEvent;timer.Interval=500;timer.Tick+=Tick;timer.Start();WriteStatus("state=watching");}
   private void Tick(object sender,EventArgs args){
    if(stop.WaitOne(0)||File.Exists(Disabled)){timer.Stop();WriteStatus("state=stopped");ExitThread();return;}
@@ -82,8 +84,14 @@ internal static class MintCursorKeeper {
     if(s==null){pending=null;lastApplied=null;sameTicks=0;retryAfter=DateTime.MinValue;if(lastState!="inactive"){lastState="inactive";WriteStatus("state=inactive-other-scheme");}return;}
     if(pending!=s.Signature){pending=s.Signature;sameTicks=1;retryAfter=DateTime.MinValue;return;}
     sameTicks++;if(sameTicks<2||DateTime.UtcNow<retryAfter)return;
-    if(lastApplied==s.Signature&&AllExact(s))return;
-    if(Apply(s)){lastApplied=s.Signature;lastState=s.Signature;WriteStatus("state=applied\r\ncharacter="+s.Character+"\r\nsize="+s.Size+"\r\nroles=17");Log("Applied "+s.Character+" "+s.Size+"px; all 17 live sizes verified.");}
+    if(lastApplied==s.Signature&&(sizeReadbackUnavailable||AllExact(s)))return;
+    bool sizeConfirmed;
+     if(Apply(s,out sizeConfirmed)){
+      lastApplied=s.Signature;lastState=s.Signature;sizeReadbackUnavailable=!sizeConfirmed;
+      WriteStatus("state="+(sizeConfirmed?"applied":"readback-unconfirmed")+"\r\ncharacter="+s.Character+"\r\nsize="+s.Size+"\r\nroles=17");
+      Log("Applied "+s.Character+" "+s.Size+"px; all 17 replacements succeeded.");
+      if(!sizeConfirmed)Log("WARNING: Cursor bitmap size does not confirm the requested size. Automatic correction suspended for this selection to avoid flicker; actual display size depends on Windows.");
+     }
     else{lastApplied=null;retryAfter=DateTime.UtcNow.AddSeconds(2);}
    }catch(Exception e){lastApplied=null;retryAfter=DateTime.UtcNow.AddSeconds(5);Log("Correction failed: "+e.GetType().Name+": "+e.Message);WriteStatus("state=error\r\nerror="+e.GetType().Name);}
   }

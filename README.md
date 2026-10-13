@@ -1,5 +1,8 @@
 # DeepSeek 小鲸鱼 · Q版动态鼠标指针
 
+> **v1.0.1 安装兼容修复**：[完整安装包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-install-v1.0.1.zip) · [可编辑源码](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-source-v1.0.1.zip) · [PNG帧](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-png-frames-v1.0.1.zip)。升级步骤和旧系统说明见 [兼容修复说明](WIN10_COMPATIBILITY.md)。
+
+
 沿用此前从CN社区找到并用于动画的深蓝长发小鲸鱼娘：女仆裙、围裙鲸鱼图案与鲸尾。角色素材作者 **YunYueSama**，来源 https://github.com/YunYueSama/codex-deepseek-pet 。本项目将已有透明动作图集改编为Windows动态指针，角色设计保持原样；这是社区作品，非DeepSeek官方产品。
 
 ![17状态](previews/cursor-overview.png)
@@ -12,9 +15,9 @@
 
 **补充：换完指针后，如果发现大小不对，再双击 `尺寸保持_开启.cmd` 即可。**
 
-整合安装包（含五档）：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-mint-cursors-v1.0.0.zip
+整合安装包（含五档）：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-install-v1.0.1.zip
 
-可选原始PNG编辑帧包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/raw/refs/heads/main/downloads/deepseek-editable-frames-v1.0.0.zip
+可选原始PNG编辑帧包：https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-png-frames-v1.0.1.zip
 
 1. 下载整合包，完整解压后再运行文件。
 2. 推荐双击 `应用_DeepSeek_64px.cmd` 安装并应用。另有32、48、128、256px对应CMD，选择一档即可；无参数运行 `install.ps1` 也默认64px。

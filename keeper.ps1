@@ -62,7 +62,7 @@ if(-not $reuse){
   Stop-MintKeeper
   Move-Item -LiteralPath $staged -Destination $installedExe -Force
   Copy-Item -LiteralPath $sourceCode -Destination (Join-Path $keeperDir 'MintCursorKeeper.cs') -Force
-  $build=[ordered]@{version='1.0.0';source_sha256=$sourceHash;binary_sha256=(Get-FileHash -LiteralPath $installedExe -Algorithm SHA256).Hash;compiler=$compiler;generated_locally=$true}
+  $build=[ordered]@{version='1.0.1';source_sha256=$sourceHash;binary_sha256=(Get-FileHash -LiteralPath $installedExe -Algorithm SHA256).Hash;compiler=$compiler;generated_locally=$true}
   [IO.File]::WriteAllText($buildFile,($build | ConvertTo-Json),[Text.UTF8Encoding]::new($false))
  }finally{if(Test-Path -LiteralPath $staged){Remove-Item -LiteralPath $staged -Force}}
 }
