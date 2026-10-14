@@ -2,3 +2,5 @@ __pycache__/
 source/frames/
 source/video/*.mp4
 *.pyc
+/source/frames/
+/large-arrow/source/frames/

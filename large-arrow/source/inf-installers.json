@@ -1,0 +1,37 @@
+[
+  {
+    "file": "安装_DeepSeek_32px.inf",
+    "size": 32,
+    "scheme": "DeepSeek Mint 32px",
+    "encoding": "UTF-16LE BOM",
+    "runtime_code": false
+  },
+  {
+    "file": "安装_DeepSeek_48px.inf",
+    "size": 48,
+    "scheme": "DeepSeek Mint 48px",
+    "encoding": "UTF-16LE BOM",
+    "runtime_code": false
+  },
+  {
+    "file": "安装_DeepSeek_64px.inf",
+    "size": 64,
+    "scheme": "DeepSeek Mint 64px",
+    "encoding": "UTF-16LE BOM",
+    "runtime_code": false
+  },
+  {
+    "file": "安装_DeepSeek_128px.inf",
+    "size": 128,
+    "scheme": "DeepSeek Mint 128px",
+    "encoding": "UTF-16LE BOM",
+    "runtime_code": false
+  },
+  {
+    "file": "安装_DeepSeek_256px.inf",
+    "size": 256,
+    "scheme": "DeepSeek Mint 256px",
+    "encoding": "UTF-16LE BOM",
+    "runtime_code": false
+  }
+]

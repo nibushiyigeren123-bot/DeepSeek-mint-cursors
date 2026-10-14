@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 
 internal static class MintCursorKeeper {
- internal const string Version="1.0.1";
+ internal const string Version="1.1.0";
  internal const string RegistryPath=@"Control Panel\Cursors";
  internal const string ObjectPrefix="DeepSeekMintCursorKeeper";
  internal static readonly string[] Roles={"Arrow","Help","AppStarting","Wait","Crosshair","IBeam","NWPen","No","SizeNS","SizeWE","SizeNWSE","SizeNESW","SizeAll","UpArrow","Hand","Pin","Person"};
@@ -127,7 +127,14 @@ internal static class MintCursorKeeper {
   [DllImport("gdi32.dll")] private static extern bool DeleteObject(IntPtr bitmap);
   [DllImport("user32.dll",SetLastError=true)] private static extern bool SystemParametersInfo(uint action,uint parameter,IntPtr value,uint flags);
   internal static IntPtr Current(uint id){return LoadCursorW(IntPtr.Zero,new IntPtr((long)id));}
-  internal static IntPtr Load(string path,int size){return LoadImageW(IntPtr.Zero,path,2,size,size,16);}
+  [DllImport("user32.dll",SetLastError=true)] private static extern IntPtr CreateIconFromResourceEx([In] byte[] bits,uint length,[MarshalAs(UnmanagedType.Bool)] bool icon,uint version,int width,int height,uint flags);
+  private static IntPtr LoadCursorPixels(string path,int size){
+   byte[] bits=File.ReadAllBytes(path);
+   if(bits.Length>=12&&bits[0]==82&&bits[1]==73&&bits[2]==70&&bits[3]==70&&bits[8]==65&&bits[9]==67&&bits[10]==79&&bits[11]==78)
+    return CreateIconFromResourceEx(bits,(uint)bits.Length,false,0x00030000,size,size,0);
+   return LoadImageW(IntPtr.Zero,path,2,size,size,16);
+  }
+  internal static IntPtr Load(string path,int size){return LoadCursorPixels(path,size);}
   internal static bool Replace(IntPtr owned,uint id){return SetSystemCursor(owned,id);}
   internal static void Free(IntPtr owned){DestroyCursor(owned);}
   internal static bool Reload(){return SystemParametersInfo(0x57,0,IntPtr.Zero,0);}

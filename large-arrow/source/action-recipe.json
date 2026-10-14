@@ -1,0 +1,137 @@
+{
+  "source_grid": 512,
+  "source_columns": 4,
+  "action_specs": {
+    "idle": [
+      "dense-idle.png",
+      [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        22,
+        23,
+        24,
+        26,
+        28,
+        31
+      ]
+    ],
+    "running-right": [
+      "dense-walk.png",
+      [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    ],
+    "running-left": [
+      "dense-walk.png",
+      [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    ],
+    "waving": [
+      "dense-wave.png",
+      [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    ],
+    "jumping": [
+      "dense-jump.png",
+      [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28
+      ]
+    ],
+    "failed": [
+      "expressions.png",
+      [
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11,
+        11
+      ]
+    ],
+    "waiting": [
+      "dense-idle.png",
+      [
+        8,
+        12,
+        16,
+        20,
+        24,
+        26,
+        28,
+        31
+      ]
+    ],
+    "working": [
+      "expressions.png",
+      [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    ],
+    "review": [
+      "expressions.png",
+      [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ]
+  },
+  "mirrored_action": "running-left",
+  "static_poses_breathing": [
+    "failed",
+    "working",
+    "review"
+  ],
+  "character_design_unchanged": true,
+  "normalization": "per-action shared transparent bounds and scale; shared anchor, no opaque pixels cropped",
+  "symbol_box_max": 66,
+  "character_box_max": 240
+}

@@ -1,0 +1,51 @@
+{
+  "seconds": 47,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "scenes": [
+    [
+      0,
+      4,
+      "intro"
+    ],
+    [
+      4,
+      38,
+      "all 17 animated states"
+    ],
+    [
+      38,
+      43,
+      "five native sizes"
+    ],
+    [
+      43,
+      47,
+      "install and download"
+    ]
+  ],
+  "roles": [
+    "Arrow",
+    "Help",
+    "AppStarting",
+    "Wait",
+    "Crosshair",
+    "IBeam",
+    "NWPen",
+    "No",
+    "SizeNS",
+    "SizeWE",
+    "SizeNWSE",
+    "SizeNESW",
+    "SizeAll",
+    "UpArrow",
+    "Hand",
+    "Pin",
+    "Person"
+  ],
+  "role_seconds": 2,
+  "audio": "added separately using add_showcase_bgm.py"
+}

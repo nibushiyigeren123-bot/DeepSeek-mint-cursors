@@ -1,0 +1,327 @@
+{
+  "edition": "original-pixels-large-arrow",
+  "version": "0.2.0-preview",
+  "character_reference_tier": 48,
+  "native_composite_size": 72,
+  "symbol_origin": [
+    2,
+    2
+  ],
+  "character_origins": {
+    "Arrow": [
+      12,
+      14
+    ],
+    "Help": [
+      10,
+      13
+    ],
+    "AppStarting": [
+      11,
+      13
+    ],
+    "Wait": [
+      15,
+      16
+    ],
+    "Crosshair": [
+      13,
+      16
+    ],
+    "IBeam": [
+      10,
+      13
+    ],
+    "NWPen": [
+      10,
+      13
+    ],
+    "No": [
+      16,
+      16
+    ],
+    "SizeNS": [
+      6,
+      13
+    ],
+    "SizeWE": [
+      9,
+      10
+    ],
+    "SizeNWSE": [
+      16,
+      18
+    ],
+    "SizeNESW": [
+      11,
+      13
+    ],
+    "SizeAll": [
+      12,
+      15
+    ],
+    "UpArrow": [
+      11,
+      13
+    ],
+    "Hand": [
+      14,
+      17
+    ],
+    "Pin": [
+      10,
+      13
+    ],
+    "Person": [
+      16,
+      18
+    ]
+  },
+  "board_reference": {
+    "board_id": "hsghhkARGq9S4eExKxmnn",
+    "arrow_origin": [
+      135,
+      256
+    ],
+    "character_origin": [
+      143.39506634262096,
+      267.17763034973115
+    ],
+    "relative_offset": [
+      8.39506634262096,
+      11.17763034973115
+    ]
+  },
+  "integer_arrow_offset": [
+    10,
+    12
+  ],
+  "integer_placement_rule": "closest integer position disjoint in all animation phases; no image resampling",
+  "future_size_rule": "scale these frozen reference coordinates proportionally, never refit each resolution",
+  "character_pixels_preserved": true,
+  "character_rescaled_after_reference": false,
+  "super_resolution_used": false,
+  "role_spacing": [
+    {
+      "role": "Arrow",
+      "character_offset_from_symbol": [
+        10,
+        12
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        4.242640687119285
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Help",
+      "character_offset_from_symbol": [
+        8,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        5.385164807134504
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "AppStarting",
+      "character_offset_from_symbol": [
+        9,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        5.0
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Wait",
+      "character_offset_from_symbol": [
+        13,
+        14
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        2.8284271247461903,
+        3.605551275463989
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Crosshair",
+      "character_offset_from_symbol": [
+        11,
+        14
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        3.1622776601683795,
+        5.0
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "IBeam",
+      "character_offset_from_symbol": [
+        8,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        4.0,
+        5.0
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "NWPen",
+      "character_offset_from_symbol": [
+        8,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        5.0
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "No",
+      "character_offset_from_symbol": [
+        14,
+        14
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        3.1622776601683795,
+        4.242640687119285
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "SizeNS",
+      "character_offset_from_symbol": [
+        4,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 2.0,
+      "visible_center_distance_range": [
+        4.123105625617661,
+        13.038404810405298
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "SizeWE",
+      "character_offset_from_symbol": [
+        7,
+        8
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        4.123105625617661,
+        5.0
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "SizeNWSE",
+      "character_offset_from_symbol": [
+        14,
+        16
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        2.8284271247461903,
+        4.242640687119285
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "SizeNESW",
+      "character_offset_from_symbol": [
+        9,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        5.385164807134504
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "SizeAll",
+      "character_offset_from_symbol": [
+        10,
+        13
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        4.242640687119285
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "UpArrow",
+      "character_offset_from_symbol": [
+        9,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.4142135623730951,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        11.40175425099138
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Hand",
+      "character_offset_from_symbol": [
+        12,
+        15
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        2.8284271247461903,
+        2.8284271247461903
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Pin",
+      "character_offset_from_symbol": [
+        8,
+        11
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        3.605551275463989,
+        4.242640687119285
+      ],
+      "fixed_for_all_animation_phases": true
+    },
+    {
+      "role": "Person",
+      "character_offset_from_symbol": [
+        14,
+        16
+      ],
+      "minimum_nonzero_alpha_center_distance": 1.0,
+      "visible_center_distance_range": [
+        3.1622776601683795,
+        4.0
+      ],
+      "fixed_for_all_animation_phases": true
+    }
+  ]
+}

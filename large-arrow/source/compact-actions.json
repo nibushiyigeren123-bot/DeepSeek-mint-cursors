@@ -1,0 +1,60 @@
+{
+  "cell": 256,
+  "groups": {
+    "idle": {
+      "row": 0,
+      "count": 12,
+      "width": 199,
+      "height": 240
+    },
+    "running-right": {
+      "row": 1,
+      "count": 8,
+      "width": 211,
+      "height": 240
+    },
+    "running-left": {
+      "row": 2,
+      "count": 8,
+      "width": 211,
+      "height": 240
+    },
+    "waving": {
+      "row": 3,
+      "count": 8,
+      "width": 198,
+      "height": 240
+    },
+    "jumping": {
+      "row": 4,
+      "count": 8,
+      "width": 225,
+      "height": 240
+    },
+    "failed": {
+      "row": 5,
+      "count": 8,
+      "width": 188,
+      "height": 244
+    },
+    "waiting": {
+      "row": 6,
+      "count": 8,
+      "width": 199,
+      "height": 240
+    },
+    "working": {
+      "row": 7,
+      "count": 8,
+      "width": 191,
+      "height": 244
+    },
+    "review": {
+      "row": 8,
+      "count": 8,
+      "width": 191,
+      "height": 244
+    }
+  },
+  "normalization": "Exact RGBA pixels of original atlas extraction, shared crop/scale and breathing registration. Original community PNGs preserved in repository and formal archive."
+}

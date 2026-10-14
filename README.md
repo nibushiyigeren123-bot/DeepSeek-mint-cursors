@@ -1,5 +1,23 @@
 # DeepSeek 小鲸鱼 · Q版动态鼠标指针
 
+## v1.1.0：原版更新与新增放大版
+
+[下载完整原版](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/DeepSeek-mint-cursors-original-install-v1.1.0.zip) · [下载完整放大版](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/DeepSeek-mint-cursors-large-arrow-install-v1.1.0.zip) · [本次全部下载](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.1.0)
+
+原版保留五档32/48/64/128/256px；新增放大版提供六档组合画布32/48/64/72/128/256px。72px组合保留各自原版48px人物图层，功能符号更大，人物在右下方分开排布。原版名字与安装目录保留；放大版位于[large-arrow](large-arrow/README.md)，使用独立方案与目录，同仓库共存。
+
+两版同步修正小尺寸人物颜色发浅的加载问题，角色美术和原版动画文件保持。完整解压对应ZIP，运行本包“应用”CMD；原先正在运行的本版尺寸保持器会更新并恢复运行，原先停止则保持停止。需要持续保持，再运行同包“尺寸保持_开启.cmd”。INF或系统设置直接选方案仍走系统文件加载，随后需本版保持器重新载入。普通应用默认不新增后台；尺寸保持属于可选功能，龙娘本次也补齐该可选入口。
+
+要确定返回原版，请运行原版应用CMD，或放大版“切回_角色_原版”入口。“恢复安装前指针”只返回上一套方案。全部包含对应可编辑源图、PNG帧、生成器、安装与恢复入口；正常使用无需Python。
+
+### 放大版介绍视频
+
+- DeepSeek：[26秒介绍视频](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-放大版介绍.mp4) · [字幕](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-放大版介绍.srt)
+
+用户实际使用反馈继续收集；以下为原版设计、来源与历史资料，旧发行保留。
+
+---
+
 > **v1.0.1 安装兼容修复**：[完整安装包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-install-v1.0.1.zip) · [可编辑源码](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-source-v1.0.1.zip) · [PNG帧](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.0.1/DeepSeek-mint-cursors-png-frames-v1.0.1.zip)。升级步骤和旧系统说明见 [兼容修复说明](WIN10_COMPATIBILITY.md)。
 
 

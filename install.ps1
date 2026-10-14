@@ -38,6 +38,7 @@ $cursorKey='HKCU:\Control Panel\Cursors'
 if(-not ('DeepSeekCursorNative' -as [type])){
  Add-Type -TypeDefinition @'
 using System;
+using System.IO;
 using System.Runtime.InteropServices;
 public static class DeepSeekCursorNative {
  [StructLayout(LayoutKind.Sequential)] private struct IconInfo {
@@ -75,8 +76,15 @@ public static class DeepSeekCursorNative {
    if(icon.color!=IntPtr.Zero) DeleteObject(icon.color);
   }
  }
+  [DllImport("user32.dll",SetLastError=true)] private static extern IntPtr CreateIconFromResourceEx([In] byte[] bits,uint length,[MarshalAs(UnmanagedType.Bool)] bool icon,uint version,int width,int height,uint flags);
+  private static IntPtr LoadCursorPixels(string path,int size){
+   byte[] bits=File.ReadAllBytes(path);
+   if(bits.Length>=12&&bits[0]==82&&bits[1]==73&&bits[2]==70&&bits[3]==70&&bits[8]==65&&bits[9]==67&&bits[10]==79&&bits[11]==78)
+    return CreateIconFromResourceEx(bits,(uint)bits.Length,false,0x00030000,size,size,0);
+   return LoadImageW(IntPtr.Zero,path,2,size,size,16);
+  }
  public static bool ApplyExactSize(string path,uint id,int size) {
-  IntPtr cursor=LoadImageW(IntPtr.Zero,path,2,size,size,16);
+  IntPtr cursor=LoadCursorPixels(path,size);
   if(cursor==IntPtr.Zero) return false;
   // SetSystemCursor consumes a nonshared handle on success.
   if(SetSystemCursor(cursor,id)) return true;

@@ -2,10 +2,10 @@
 from pathlib import Path
 import ctypes as C
 from ctypes import wintypes as W
-import hashlib,json,struct,sys
+import hashlib,json,struct,sys,tempfile
 from PIL import Image,ImageDraw,ImageFont,ImageChops
 ROOT=Path(__file__).resolve().parents[1]
-REPO=ROOT if (ROOT/'cursors').exists() else ROOT/'public'/'DeepSeek-mint-cursors'
+REPO=ROOT if (ROOT/'cursors').exists() else ROOT/'public'/'astra-sol-mint-cursors'
 
 def parse_cur(raw,expected):
  assert struct.unpack_from('<HHH',raw)==(0,2,1)
@@ -63,6 +63,17 @@ def windows_api():
  g.GdiFlush.restype=W.BOOL
  return u,g
 
+
+def load_native_cursor(u,raw,size):
+ u.CreateIconFromResourceEx.argtypes=[C.c_void_p,W.DWORD,W.BOOL,W.DWORD,C.c_int,C.c_int,W.UINT]
+ u.CreateIconFromResourceEx.restype=W.HANDLE
+ if raw[:4]==b'RIFF':bits=raw
+ else:
+  hx,hy,length,offset=struct.unpack_from('<HHII',raw,10)
+  bits=struct.pack('<HH',hx,hy)+raw[offset:offset+length]
+ buffer=C.create_string_buffer(bits)
+ return u.CreateIconFromResourceEx(buffer,len(bits),False,0x00030000,size,size,0)
+
 def draw_native(u,g,handle,size,step,bg):
  dc=g.CreateCompatibleDC(None);assert dc
  bits=C.c_void_p();bmi=BMI();bmi.header=BMIHEADER(40,size,-size,1,32,0,size*size*4,0,0,0,0)
@@ -79,9 +90,12 @@ def main():
  entries=json.loads((REPO/'source'/'cursor_manifest.json').read_text(encoding='utf-8'))
  u,g=windows_api() if sys.platform=='win32' else (None,None)
  records=[];native=[]
+ reference_dir=tempfile.TemporaryDirectory(prefix="astra-cursor-native-")
+ reference_file=Path(reference_dir.name)/"frame.cur"
  for e in entries:
-  path=REPO/e['file'];decoded=frames(path.read_bytes(),e)
-  handle=u.LoadImageW(None,str(path.resolve()),2,e['size'],e['size'],16) if u else None
+  path=REPO/e['file'];raw=path.read_bytes();decoded=frames(raw,e)
+  icons=[icon for kind,data in chunks(raw,12) if kind==b'LIST' and data[:4]==b'fram' for k,icon in chunks(data,4)]
+  handle=load_native_cursor(u,raw,e['size']) if u else None
   if u:assert handle,f'Windows load failed: {path}, error {C.get_last_error()}'
   try:
    renders=[]
@@ -93,11 +107,21 @@ def main():
      if info.hbmColor:g.DeleteObject(info.hbmColor)
     for f in range(e['frames']):
      render=draw_native(u,g,handle,e['size'],f,(239,248,242));renders.append(render)
-     expected=Image.new('RGB',render.size,(239,248,242));expected.paste(decoded[f],(0,0),decoded[f])
-     # Native rendering must preserve visible character and symbol colors.
-     import numpy as np
-     delta=abs(np.asarray(render).astype('int16')-np.asarray(expected).astype('int16'))
-     assert float(delta.mean())<3,f'Native color mismatch: {path} {delta.mean()}'
+     png=Image.open(REPO/f'source/frames/{e["character"]}/{e["size"]}/{e["role"]}-{f:02}.png').convert('RGBA')
+     assert png.tobytes()==decoded[f].tobytes(),'Source PNG and ANI pixels differ'
+
+     expected_source=Image.alpha_composite(Image.new('RGBA',png.size,(239,248,242,255)),png).convert('RGB')
+     delta=ImageChops.difference(render,expected_source)
+     assert max(v for channel in delta.getextrema() for v in channel)<=1,'Native color does not reproduce source PNG'
+
+     reference_file.write_bytes(icons[f])
+     reference=load_native_cursor(u,icons[f],e['size']);assert reference
+     try:
+      expected=draw_native(u,g,reference,e['size'],0,(239,248,242))
+      assert render.tobytes()==expected.tobytes(),'Native ANI frame differs from native CUR reference'
+      dark=draw_native(u,g,handle,e['size'],f,(21,39,33))
+      assert dark.tobytes()==draw_native(u,g,reference,e['size'],0,(21,39,33)).tobytes()
+     finally:u.DestroyCursor(reference)
     if e['frames']>1:assert len({im.tobytes() for im in renders})>=3
     if e['size']==64:native.append((e, renders[0],draw_native(u,g,handle,64,0,(21,39,33))))
    records.append({'file':e['file'],'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'hotspot':e['hotspot'],'frames':e['frames'],'native_loaded':bool(handle),'native_draw_steps':len(renders)})
@@ -112,6 +136,7 @@ def main():
    sheet.paste(light,(x,y));sheet.paste(dark,(x+70,y))
    d.text((x,y+78),e['character']+' '+e['role'],font=ImageFont.truetype('C:/Windows/Fonts/arial.ttf',13),fill='#d6eee0')
   sheet.save(REPO/'previews'/'windows-native-review.png')
+ reference_dir.cleanup()
  output={'cursor_files':len(entries),'schemes':len({(e['character'],e['size']) for e in entries}),'role_count':17,'native_verified':u is not None,'records':records}
  (REPO/'validation.json').write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf-8')
  print(json.dumps({k:v for k,v in output.items() if k!='records'}))

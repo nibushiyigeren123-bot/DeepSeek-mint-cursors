@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "original_ani_unchanged": true,
+  "original_sizes": [
+    32,
+    48,
+    64,
+    128,
+    256
+  ],
+  "large_sizes": [
+    32,
+    48,
+    64,
+    72,
+    128,
+    256
+  ],
+  "large_namespace": "DeepSeekMintCursorsLargeArrow",
+  "character_ids": [
+    "deepseek"
+  ],
+  "visual_acceptance": "user feedback"
+}

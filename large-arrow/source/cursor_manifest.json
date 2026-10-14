@@ -1,0 +1,1634 @@
+[
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/32/Arrow.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/48/Arrow.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/64/Arrow.ani",
+    "hotspot": [
+      3,
+      3
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/72/Arrow.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/128/Arrow.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/256/Arrow.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/32/Help.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/48/Help.ani",
+    "hotspot": [
+      2,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/64/Help.ani",
+    "hotspot": [
+      3,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/72/Help.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/128/Help.ani",
+    "hotspot": [
+      7,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/256/Help.ani",
+    "hotspot": [
+      14,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/32/AppStarting.ani",
+    "hotspot": [
+      1,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/48/AppStarting.ani",
+    "hotspot": [
+      2,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/64/AppStarting.ani",
+    "hotspot": [
+      3,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/72/AppStarting.ani",
+    "hotspot": [
+      4,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/128/AppStarting.ani",
+    "hotspot": [
+      6,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/256/AppStarting.ani",
+    "hotspot": [
+      14,
+      14
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/32/Wait.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/48/Wait.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/64/Wait.ani",
+    "hotspot": [
+      12,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/72/Wait.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/128/Wait.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/256/Wait.ani",
+    "hotspot": [
+      53,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/32/Crosshair.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/48/Crosshair.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/64/Crosshair.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/72/Crosshair.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/128/Crosshair.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/256/Crosshair.ani",
+    "hotspot": [
+      53,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/32/IBeam.ani",
+    "hotspot": [
+      3,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/48/IBeam.ani",
+    "hotspot": [
+      6,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/64/IBeam.ani",
+    "hotspot": [
+      7,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/72/IBeam.ani",
+    "hotspot": [
+      8,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/128/IBeam.ani",
+    "hotspot": [
+      15,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/256/IBeam.ani",
+    "hotspot": [
+      31,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/32/NWPen.ani",
+    "hotspot": [
+      1,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/48/NWPen.ani",
+    "hotspot": [
+      2,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/64/NWPen.ani",
+    "hotspot": [
+      3,
+      22
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/72/NWPen.ani",
+    "hotspot": [
+      4,
+      25
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/128/NWPen.ani",
+    "hotspot": [
+      7,
+      45
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/256/NWPen.ani",
+    "hotspot": [
+      15,
+      91
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/32/No.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/48/No.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/64/No.ani",
+    "hotspot": [
+      12,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/72/No.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/128/No.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/256/No.ani",
+    "hotspot": [
+      53,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/32/SizeNS.ani",
+    "hotspot": [
+      3,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/48/SizeNS.ani",
+    "hotspot": [
+      5,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/64/SizeNS.ani",
+    "hotspot": [
+      6,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/72/SizeNS.ani",
+    "hotspot": [
+      8,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/128/SizeNS.ani",
+    "hotspot": [
+      13,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/256/SizeNS.ani",
+    "hotspot": [
+      27,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/32/SizeWE.ani",
+    "hotspot": [
+      6,
+      2
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/48/SizeWE.ani",
+    "hotspot": [
+      10,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/64/SizeWE.ani",
+    "hotspot": [
+      12,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/72/SizeWE.ani",
+    "hotspot": [
+      15,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/128/SizeWE.ani",
+    "hotspot": [
+      26,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/256/SizeWE.ani",
+    "hotspot": [
+      52,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/32/SizeNWSE.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/48/SizeNWSE.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/64/SizeNWSE.ani",
+    "hotspot": [
+      12,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/72/SizeNWSE.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/128/SizeNWSE.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/256/SizeNWSE.ani",
+    "hotspot": [
+      53,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/32/SizeNESW.ani",
+    "hotspot": [
+      6,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/48/SizeNESW.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/64/SizeNESW.ani",
+    "hotspot": [
+      13,
+      13
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/72/SizeNESW.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/128/SizeNESW.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/256/SizeNESW.ani",
+    "hotspot": [
+      53,
+      53
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/32/SizeAll.ani",
+    "hotspot": [
+      6,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/48/SizeAll.ani",
+    "hotspot": [
+      10,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/64/SizeAll.ani",
+    "hotspot": [
+      12,
+      12
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/72/SizeAll.ani",
+    "hotspot": [
+      15,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/128/SizeAll.ani",
+    "hotspot": [
+      26,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/256/SizeAll.ani",
+    "hotspot": [
+      52,
+      52
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/32/UpArrow.ani",
+    "hotspot": [
+      5,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/48/UpArrow.ani",
+    "hotspot": [
+      9,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/64/UpArrow.ani",
+    "hotspot": [
+      11,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/72/UpArrow.ani",
+    "hotspot": [
+      13,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/128/UpArrow.ani",
+    "hotspot": [
+      23,
+      6
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/256/UpArrow.ani",
+    "hotspot": [
+      47,
+      14
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/32/Hand.ani",
+    "hotspot": [
+      4,
+      1
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/48/Hand.ani",
+    "hotspot": [
+      6,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/64/Hand.ani",
+    "hotspot": [
+      8,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/72/Hand.ani",
+    "hotspot": [
+      10,
+      4
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/128/Hand.ani",
+    "hotspot": [
+      17,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/256/Hand.ani",
+    "hotspot": [
+      36,
+      15
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/32/Pin.ani",
+    "hotspot": [
+      4,
+      11
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/48/Pin.ani",
+    "hotspot": [
+      8,
+      17
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/64/Pin.ani",
+    "hotspot": [
+      10,
+      22
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/72/Pin.ani",
+    "hotspot": [
+      12,
+      26
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/128/Pin.ani",
+    "hotspot": [
+      21,
+      45
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/256/Pin.ani",
+    "hotspot": [
+      43,
+      91
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "character_tile": 171
+  },
+  {
+    "character": "deepseek",
+    "size": 32,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/32/Person.ani",
+    "hotspot": [
+      5,
+      3
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 21
+  },
+  {
+    "character": "deepseek",
+    "size": 48,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/48/Person.ani",
+    "hotspot": [
+      9,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 32
+  },
+  {
+    "character": "deepseek",
+    "size": 64,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/64/Person.ani",
+    "hotspot": [
+      11,
+      7
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 43
+  },
+  {
+    "character": "deepseek",
+    "size": 72,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/72/Person.ani",
+    "hotspot": [
+      13,
+      8
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 48
+  },
+  {
+    "character": "deepseek",
+    "size": 128,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/128/Person.ani",
+    "hotspot": [
+      24,
+      14
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 85
+  },
+  {
+    "character": "deepseek",
+    "size": 256,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/256/Person.ani",
+    "hotspot": [
+      49,
+      29
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "character_tile": 171
+  }
+]
