@@ -12,7 +12,7 @@
 
 ### 放大版介绍视频
 
-- DeepSeek：[26秒介绍视频](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-放大版介绍.mp4) · [字幕](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-放大版介绍.srt)
+- DeepSeek：[26秒介绍视频](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-large-arrow-introduction.mp4) · [字幕](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.1.0/deepseek-large-arrow-introduction.srt)
 
 用户实际使用反馈继续收集；以下为原版设计、来源与历史资料，旧发行保留。
 
