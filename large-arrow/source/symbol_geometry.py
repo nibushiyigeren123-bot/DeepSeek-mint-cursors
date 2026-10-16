@@ -89,8 +89,8 @@ def native_symbol(role,size,phase,draw):
  padded=Image.new('RGBA',(badge.width+pad*2,badge.height+pad*2));padded.alpha_composite(badge,(pad,pad))
  alpha=padded.getchannel('A')
  white_radius=max(1,round(6*native_ratio*AA));dark_radius=max(1,round(3*native_ratio*AA))
- white=Image.new('RGBA',padded.size,'white');white.putalpha(Image.fromarray(maximum_filter(np.asarray(alpha),size=white_radius*2+1,mode='constant',cval=0)))
- dark=Image.new('RGBA',padded.size,'#101820');dark.putalpha(Image.fromarray(maximum_filter(np.asarray(alpha),size=dark_radius*2+1,mode='constant',cval=0)))
+ white=Image.new('RGBA',padded.size,WHITE);white.putalpha(Image.fromarray(maximum_filter(np.asarray(alpha),size=white_radius*2+1,mode='constant',cval=0)))
+ dark=Image.new('RGBA',padded.size,OUTER);dark.putalpha(Image.fromarray(maximum_filter(np.asarray(alpha),size=dark_radius*2+1,mode='constant',cval=0)))
  white.alpha_composite(dark);white.alpha_composite(padded)
  canvas=Image.new('RGBA',(size*AA,size*AA));origin=round(3*native_ratio*AA)
  assert origin+white.width<=size*AA and origin+white.height<=size*AA,'Symbol must fit without clipping'

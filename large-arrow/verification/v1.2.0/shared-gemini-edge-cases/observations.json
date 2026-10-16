@@ -1,0 +1,3011 @@
+[
+    {
+        "label":  "100-after-real-reboot-plus256",
+        "globalBase":  32,
+        "expected":  352,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       352,
+                                       352,
+                                       15,
+                                       15
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         31,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         27,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         26
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         52
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         47,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         36,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         43,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         49,
+                                         29
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 256px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:33:37.3746684Z\r\nstate=applied\r\ncharacter=gemini\r\nsize=256\r\nrender_size=352\r\nroles=17\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "101-default-after-boot",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:00.7971364Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "102-plus96-before-repair",
+        "globalBase":  32,
+        "expected":  128,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       128,
+                                       128,
+                                       5,
+                                       5
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         11,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         33
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         9,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         17,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         13,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         16,
+                                         34
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         18,
+                                         10
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 96px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:04.8358197Z\r\nstate=applied\r\ncharacter=gemini\r\nsize=96\r\nrender_size=128\r\nroles=17\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "103-cached-cmd-repaired-hand",
+        "globalBase":  32,
+        "expected":  128,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       128,
+                                       128,
+                                       5,
+                                       5
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         11,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         33
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         9,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         17,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         13,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         16,
+                                         34
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         18,
+                                         10
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 96px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:04.8358197Z\r\nstate=applied\r\ncharacter=gemini\r\nsize=96\r\nrender_size=128\r\nroles=17\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "104-user48-default-before",
+        "globalBase":  48,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         9,
+                                         10
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         12,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:07.8104261Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "105-user48-original96",
+        "globalBase":  48,
+        "expected":  96,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       96,
+                                       96,
+                                       1,
+                                       2
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         1,
+                                         2
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         1,
+                                         2
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         1,
+                                         2
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         6,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         2,
+                                         24
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         5,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         13
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         13,
+                                         12
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         11,
+                                         1
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         8,
+                                         1
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         10,
+                                         24
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         96,
+                                         96,
+                                         12,
+                                         6
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini AI 96px",
+        "keeperStatus":  "version=1.2.0\r\npid=9204\r\nutc=2026-10-15T19:34:16.1624542Z\r\nstate=watching\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursors\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "106-user48-default-after-original",
+        "globalBase":  48,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         9,
+                                         10
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         12,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=9204\r\nutc=2026-10-15T19:34:17.6681761Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursors\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "107-user48-plus256",
+        "globalBase":  48,
+        "expected":  352,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       352,
+                                       352,
+                                       15,
+                                       15
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         31,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         27,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         26
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         52
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         47,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         36,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         43,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         49,
+                                         29
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 256px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:07.8104261Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "108-user48-default-after-plus",
+        "globalBase":  48,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         9,
+                                         10
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         12,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         5,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         7,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:22.8607828Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "109-user-size-restored32",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:22.8607828Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "110-inf-plus96",
+        "globalBase":  32,
+        "expected":  128,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       128,
+                                       128,
+                                       5,
+                                       5
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         11,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         5,
+                                         33
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         9,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         19,
+                                         19
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         17,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         13,
+                                         5
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         16,
+                                         34
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         128,
+                                         128,
+                                         18,
+                                         10
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 96px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:31.4107479Z\r\nstate=applied\r\ncharacter=gemini\r\nsize=96\r\nrender_size=128\r\nroles=17\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "111-inf96-default",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:32.9054996Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "110-inf-plus256",
+        "globalBase":  32,
+        "expected":  352,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       352,
+                                       352,
+                                       15,
+                                       15
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         14,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         31,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         15,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         27,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         26
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         53,
+                                         53
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         52,
+                                         52
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         47,
+                                         14
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         36,
+                                         15
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         43,
+                                         91
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         352,
+                                         352,
+                                         49,
+                                         29
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 256px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:36.5564503Z\r\nstate=applied\r\ncharacter=gemini\r\nsize=256\r\nrender_size=352\r\nroles=17\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "111-inf256-default",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:37.9385843Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "112-own-name-foreign-paths-untouched",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Gemini LargeArrow 96px",
+        "keeperStatus":  "version=1.2.0\r\npid=8736\r\nutc=2026-10-15T19:34:37.9385843Z\r\nstate=inactive-other-scheme\r\n",
+        "keeperStartup":  "\"C:\\Users\\LabUser\\AppData\\Local\\GeminiCursorsLargeArrow\\1.0.0\\keeper\\MintCursorKeeper.exe\"",
+        "dpi":  96
+    },
+    {
+        "label":  "113-restore-original-default",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  513,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  "version=1.2.0\r\npid=9204\r\nutc=2026-10-15T19:34:47.2864246Z\r\nstate=stopped\r\n",
+        "keeperStartup":  null,
+        "dpi":  96
+    },
+    {
+        "label":  "114-final-default-after-uninstall",
+        "globalBase":  32,
+        "expected":  32,
+        "current":  {
+                        "visible":  true,
+                        "flags":  1,
+                        "bitmap":  [
+                                       32,
+                                       32,
+                                       0,
+                                       0
+                                   ],
+                        "handle":  65539,
+                        "x":  512,
+                        "y":  356
+                    },
+        "roles":  [
+                      {
+                          "role":  "Arrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Help",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "AppStarting",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "Wait",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "Crosshair",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         16,
+                                         16
+                                     ]
+                      },
+                      {
+                          "role":  "IBeam",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         9
+                                     ]
+                      },
+                      {
+                          "role":  "NWPen",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         0,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "No",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNS",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "SizeWE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         4
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNWSE",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeNESW",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         8,
+                                         8
+                                     ]
+                      },
+                      {
+                          "role":  "SizeAll",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         11,
+                                         11
+                                     ]
+                      },
+                      {
+                          "role":  "UpArrow",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         4,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Hand",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Pin",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      },
+                      {
+                          "role":  "Person",
+                          "bitmap":  [
+                                         32,
+                                         32,
+                                         6,
+                                         0
+                                     ]
+                      }
+                  ],
+        "scheme":  "Windows 默认",
+        "keeperStatus":  null,
+        "keeperStartup":  null,
+        "dpi":  96
+    }
+]

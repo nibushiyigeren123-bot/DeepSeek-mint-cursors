@@ -1,0 +1,226 @@
+{
+  "packages": 22,
+  "uniqueKeeperIdentities": 22,
+  "results": [
+    {
+      "repository": "astra-sol-mint-cursors",
+      "edition": "original",
+      "namespace": "AstraSolMintCursors",
+      "objectPrefix": "AstraSolMintCursorsKeeper",
+      "installSha256": "b14f792d608e84870564a3facd9a40800389d029d297de44601c8e303d2d027d",
+      "sourceSha256": "a9cf7f57e3de379b8b0344bcf66a780cc8a1fb03ed44f32e7a00c71fbfcd0910",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "astra-sol-mint-cursors",
+      "edition": "large-arrow",
+      "namespace": "AstraOriginalPixelsLargeArrowCursors",
+      "objectPrefix": "AstraOriginalPixelsLargeArrowCursorsKeeper",
+      "installSha256": "e8a0b2331d289f0e79450251fca6b1a275d954189ec96c018749bdd663f9abeb",
+      "sourceSha256": "2f443c57808715aef055e9f1208833c0de03bd8e926691baa92a4f9f15891562",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "bytedance-cursors",
+      "edition": "original",
+      "namespace": "ByteDanceCursors",
+      "objectPrefix": "ByteDanceCursorsKeeper",
+      "installSha256": "834e0534ec28184ea9e5fa2e82177c207927d91f1029e35036aeef5ccc3c92be",
+      "sourceSha256": "387088bea59e774ea02a70e937f0f5bb3f4e6f3fc9035eea4e7d52f027483405",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "bytedance-cursors",
+      "edition": "large-arrow",
+      "namespace": "ByteDanceCursorsLargeArrow",
+      "objectPrefix": "ByteDanceCursorsLargeArrowKeeper",
+      "installSha256": "a78493411ffc08900c8b240406240c056c745dc92408dd6022485c9313ff319f",
+      "sourceSha256": "e05f7330293b8efcef15fb3ab6fb0cec1cf37b202a11882e75751bf5bd5eb143",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "chatgpt-dragon-cursors",
+      "edition": "original",
+      "namespace": "ChatGPTDragonCursors",
+      "objectPrefix": "ChatGPTDragonCursorsKeeper",
+      "installSha256": "98228c066ca9a8e09452da848705d0bfe23801629629ccaf8cdea4e913a2a354",
+      "sourceSha256": "25414958d85becfe8b6b389ebc7ebbc0a5dd2f5c6e8aff091381cd171068ec47",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "chatgpt-dragon-cursors",
+      "edition": "large-arrow",
+      "namespace": "ChatGPTDragonCursorsLargeArrow",
+      "objectPrefix": "ChatGPTDragonCursorsLargeArrowKeeper",
+      "installSha256": "7f00b1a18b256c32fbb36aed5baaf26822c8c77ddc7246a3960220f403949908",
+      "sourceSha256": "357c608b6a3602f4fcc0499b8c80cd9d38101c4486e1db61f520f05dac3f96b7",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "claude-sisters-cursors",
+      "edition": "original",
+      "namespace": "ClaudeCursors",
+      "objectPrefix": "ClaudeCursorsKeeper",
+      "installSha256": "9ba20408a4e4cd35c32d1dba0596b320d37e71d25535982546a784a61b72c29c",
+      "sourceSha256": "d8ddb7b75d38c9c0bd1db77e7c11984d910c69c46209dd939291cb16cac1cb4d",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "claude-sisters-cursors",
+      "edition": "large-arrow",
+      "namespace": "ClaudeCursorsLargeArrow",
+      "objectPrefix": "ClaudeCursorsLargeArrowKeeper",
+      "installSha256": "7074a282e5d76c0cbf0cfc0bc4895d9103193f68f9eda3ce62c2ebceb17645ad",
+      "sourceSha256": "919da2bc7984086636f9d80caab0c61423cbd1317ea7069ab4fe8aee19f2f080",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "DeepSeek-mint-cursors",
+      "edition": "original",
+      "namespace": "DeepSeekMintCursors",
+      "objectPrefix": "DeepSeekMintCursorsKeeper",
+      "installSha256": "95f5a7c94ae17b3982778bbde088acd2443bc909997b15dcb7300b92e54a144a",
+      "sourceSha256": "cbfef29193191db602c7eb80f5ab1d53aa5bf48e53f2aec0393f26aa2cf3ec37",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "DeepSeek-mint-cursors",
+      "edition": "large-arrow",
+      "namespace": "DeepSeekMintCursorsLargeArrow",
+      "objectPrefix": "DeepSeekMintCursorsLargeArrowKeeper",
+      "installSha256": "2ad7595aec978332e82bbe39e5d7b893c17d8b2d0a1398718dbc8ea809491eef",
+      "sourceSha256": "a6f21cf95e7d4c7a79df019e003ca792c3cc29042e4d95e84130534d233505e8",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "gemini-cursors",
+      "edition": "original",
+      "namespace": "GeminiCursors",
+      "objectPrefix": "GeminiCursorsKeeper",
+      "installSha256": "32dfdf78590f5c40a0f2fdc37e89dfcca47f3a32bbea485a56b23cd32ae36283",
+      "sourceSha256": "3366d52f13d30f68b3501f0bde0645cde34d76befea26dfc7c4ed8aa0c403b07",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "gemini-cursors",
+      "edition": "large-arrow",
+      "namespace": "GeminiCursorsLargeArrow",
+      "objectPrefix": "GeminiCursorsLargeArrowKeeper",
+      "installSha256": "49ac88c2f6e8932a55ec263106689a115e8d58e09fc4882a9a83332bf15cceac",
+      "sourceSha256": "41922244f74f26b29a529459428af1fd375af39b77b26426ad5c8eae5b72f8ef",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "glm-cursors",
+      "edition": "original",
+      "namespace": "GLMCursors",
+      "objectPrefix": "GLMCursorsKeeper",
+      "installSha256": "a9e833f7bf5b5d7d4f2b677cc2ef0ce07352c5e54cee09d1473a927784d5a829",
+      "sourceSha256": "4b14213cfc9bfc26c450bda33a75f42ef59b24f630a6d0cf4dd551b2057c6e33",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "glm-cursors",
+      "edition": "large-arrow",
+      "namespace": "GLMCursorsLargeArrow",
+      "objectPrefix": "GLMCursorsLargeArrowKeeper",
+      "installSha256": "7de5d66c33636c4a827d6c76f700f0847f9df94e2da499d5a7599c408850d3f0",
+      "sourceSha256": "73cda6350ceb7b24216b65339a4b60381ec49501c7daacd634c67a8e98a65704",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "grok-cursors",
+      "edition": "original",
+      "namespace": "GrokCursors",
+      "objectPrefix": "GrokCursorsKeeper",
+      "installSha256": "54557b930bc4d3b4ca1edfc2ae1d5e2643a67472a33e15dc6729ad7ba7516860",
+      "sourceSha256": "861d5ccb108e2ebfe1912b919492b08ff949112bc3de4c1253fc914081c93fc8",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "grok-cursors",
+      "edition": "large-arrow",
+      "namespace": "GrokCursorsLargeArrow",
+      "objectPrefix": "GrokCursorsLargeArrowKeeper",
+      "installSha256": "8f1f1f37a0ee2a03fab67cacfac8ce35f56b45f1aa12a19a0bb1165da1ba0f4b",
+      "sourceSha256": "310f11c749b904420711a13a89b406fb115b28edbb912d4276cfeb80dfc2342e",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "kimi-cursors",
+      "edition": "original",
+      "namespace": "KimiCursors",
+      "objectPrefix": "KimiCursorsKeeper",
+      "installSha256": "3813495d849097f24206560e0d1d8da9365968e238b1905bc0dbd92af6f822fd",
+      "sourceSha256": "0f633ed11f44347ab8719e203ac4f687c0a2606992045200d10da5e9ff5a9e94",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "kimi-cursors",
+      "edition": "large-arrow",
+      "namespace": "KimiCursorsLargeArrow",
+      "objectPrefix": "KimiCursorsLargeArrowKeeper",
+      "installSha256": "6a1d776613cf1ce34715419725cafe2f8125d7efb8f73500ab31bc7cb5c2b75b",
+      "sourceSha256": "ff3de1fab8143939bcc3428c961d35a678f1f44651cbb5ee52d0c9f103ba5cf1",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "mimo-cursors",
+      "edition": "original",
+      "namespace": "MiMoCursors",
+      "objectPrefix": "MiMoCursorsKeeper",
+      "installSha256": "085b652bec692ea421908b6c7d572cc506736975513ecd4d11b7a34e1377400c",
+      "sourceSha256": "9c68e457290657c7596b8a28e5fb48b28bb80303fa17c83e204bfa78219a10c8",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "mimo-cursors",
+      "edition": "large-arrow",
+      "namespace": "MiMoCursorsLargeArrow",
+      "objectPrefix": "MiMoCursorsLargeArrowKeeper",
+      "installSha256": "95b0a7919127ffd4664a95c27152cca8c15963cd0e4c7e5b8edaf30b33624180",
+      "sourceSha256": "4639c19fe815e8e92b17f1a1337068a2784b94fcd20565666f28950eaf36a091",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "qwen-cursors",
+      "edition": "original",
+      "namespace": "QwenCursors",
+      "objectPrefix": "QwenCursorsKeeper",
+      "installSha256": "e898e292eed8547f561d1cee194a1e465e80a796781acc9d42370be114914c36",
+      "sourceSha256": "92fc8d7c8da13c9b6d4734bd6b6e3d6ef7e648a774cf34ccc65dfff87eb3786e",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    },
+    {
+      "repository": "qwen-cursors",
+      "edition": "large-arrow",
+      "namespace": "QwenCursorsLargeArrow",
+      "objectPrefix": "QwenCursorsLargeArrowKeeper",
+      "installSha256": "c235340667fb47c61ec358116237a263ba7257929f8d82703fc347d6d9d9bf4c",
+      "sourceSha256": "11598bd05ab92e52cc801e7bcf711ac15301398ba947d04dff3be8318376b738",
+      "restoreAllowlist": true,
+      "verifyOnlyFullPackageHashes": true
+    }
+  ]
+}

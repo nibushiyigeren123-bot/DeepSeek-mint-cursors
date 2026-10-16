@@ -1,10 +1,8 @@
 @echo off
+setlocal
+set "PSModulePath="
 cd /d "%~dp0"
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0apply-updated.ps1" -Character deepseek -Size 64
-if errorlevel 1 (
- echo Installation failed. Please read the error above.
- pause
- exit /b 1
-)
-echo All 17 cursors applied. Enable the optional size keeper once if needed.
-pause
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0apply-updated.ps1" -Character deepseek -Size 64
+set "TaskExit=%errorlevel%"
+if not "%TaskExit%"=="0" pause
+exit /b %TaskExit%

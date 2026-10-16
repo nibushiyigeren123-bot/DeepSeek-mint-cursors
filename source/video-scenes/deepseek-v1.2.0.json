@@ -1,0 +1,44 @@
+{
+  "character": "deepseek",
+  "display": "DeepSeek",
+  "duration": 12,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 24,
+  "source_fps": 12,
+  "scenes": [
+    {
+      "seconds": [
+        0,
+        6
+      ],
+      "ordinary_and_plus_base_size": 256,
+      "roles": [
+        "Arrow",
+        "Help",
+        "Hand"
+      ],
+      "scale": 1
+    },
+    {
+      "seconds": [
+        6,
+        12
+      ],
+      "plus_size": 96,
+      "states": 17,
+      "scale": 1
+    }
+  ],
+  "BGM_source": "Prior accepted release audio-track.wav; unchanged source copied locally, music credit retained; do not distribute standalone audio.",
+  "BGM_sha256": "97cd80686b3c63d2195a8f0b0611320826597e743e92677e696acb7258dfaa8b",
+  "palette": {
+    "INK": "#182844",
+    "WHITE": "#f7fbff",
+    "MINT": "#4d8dd6",
+    "GOLD": "#e8c66a",
+    "OUTER": "#182844"
+  }
+}

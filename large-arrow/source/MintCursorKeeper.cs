@@ -11,9 +11,9 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 
 internal static class MintCursorKeeper {
- internal const string Version="1.1.0";
+ internal const string Version="1.2.0";
  internal const string RegistryPath=@"Control Panel\Cursors";
- internal const string ObjectPrefix="DeepSeekMintCursorKeeper";
+ internal const string ObjectPrefix="DeepSeekMintCursorsLargeArrowKeeper";
  internal static readonly string[] Roles={"Arrow","Help","AppStarting","Wait","Crosshair","IBeam","NWPen","No","SizeNS","SizeWE","SizeNWSE","SizeNESW","SizeAll","UpArrow","Hand","Pin","Person"};
  internal static readonly uint[] Ids={32512,32651,32650,32514,32515,32513,32631,32648,32645,32644,32642,32643,32646,32516,32649,32671,32672};
  internal static readonly string Root=Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar)).FullName;
@@ -28,15 +28,16 @@ internal static class MintCursorKeeper {
   try{File.WriteAllText(Status,"version="+Version+"\r\npid="+Process.GetCurrentProcess().Id+"\r\nutc="+DateTime.UtcNow.ToString("o")+"\r\n"+state+"\r\n",new UTF8Encoding(false));}catch(IOException){}catch(UnauthorizedAccessException){}
  }
  internal sealed class Selection {
-  internal string Character,Scheme,Signature;internal int Size;internal string[] Files;
+  internal string Character,Scheme,Signature;internal int Size,PixelSize;internal string[] Files;
  }
+ internal static string CharacterId(string name){if(String.Equals(name,"DeepSeek",StringComparison.OrdinalIgnoreCase))return "deepseek";return null;}
  internal static Selection ReadSelection(){
   using(RegistryKey key=Registry.CurrentUser.OpenSubKey(RegistryPath)){
    if(key==null)return null;
    string scheme=key.GetValue("","") as string;
-   Match match=Regex.Match(scheme??"",@"^(DeepSeek) LargeArrow (32|48|64|72|128|256)px$",RegexOptions.IgnoreCase);
+   Match match=Regex.Match(scheme??"",@"^(DeepSeek) LargeArrow (32|48|64|72|96|128|256)px$",RegexOptions.IgnoreCase);
    if(!match.Success)return null;
-   Selection s=new Selection();s.Character=match.Groups[1].Value.ToLowerInvariant();s.Size=Int32.Parse(match.Groups[2].Value);s.Scheme=scheme;s.Files=new string[17];
+   Selection s=new Selection();s.Character=CharacterId(match.Groups[1].Value);s.Size=Int32.Parse(match.Groups[2].Value);s.PixelSize=(int)Math.Ceiling(s.Size*4.0/3.0/32.0)*32;s.Scheme=scheme;s.Files=new string[17];
    StringBuilder signature=new StringBuilder(s.Character+"|"+s.Size);
    string selectedRoot=null;
    string windowsRoot=Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Windows),"Cursors","DeepSeekMintCursorsLargeArrow");
@@ -54,12 +55,12 @@ internal static class MintCursorKeeper {
   }
  }
  internal static bool StillSelected(Selection s){Selection now=ReadSelection();return now!=null&&now.Signature==s.Signature&&!File.Exists(Disabled);}
- internal static bool AllExact(Selection s){try{for(int i=0;i<17;i++){if(!Native.Exact(Native.Current(Ids[i]),s.Size))return false;}return true;}catch(InvalidOperationException){return false;}}
+ internal static bool AllExact(Selection s){try{for(int i=0;i<17;i++){if(!Native.Exact(Native.Current(Ids[i]),s.PixelSize))return false;}return true;}catch(InvalidOperationException){return false;}}
  internal static bool Apply(Selection s,out bool sizeConfirmed){
    sizeConfirmed=false;
   IntPtr[] owned=new IntPtr[17];bool touched=false;
   try{
-   for(int i=0;i<17;i++){owned[i]=Native.Load(s.Files[i],s.Size);if(owned[i]==IntPtr.Zero)throw new InvalidOperationException("Cannot load "+Roles[i]+" at "+s.Size+"px; error="+Marshal.GetLastWin32Error());}
+   for(int i=0;i<17;i++){owned[i]=Native.Load(s.Files[i],s.PixelSize);if(owned[i]==IntPtr.Zero)throw new InvalidOperationException("Cannot load "+Roles[i]+" at "+s.Size+"px; error="+Marshal.GetLastWin32Error());}
    for(int i=0;i<17;i++){
     if(!StillSelected(s)){if(touched&&!Native.Reload())Log("Selection-change refresh failed; error="+Marshal.GetLastWin32Error());return false;}
     if(!Native.Replace(owned[i],Ids[i]))throw new InvalidOperationException("Cannot replace "+Roles[i]+"; error="+Marshal.GetLastWin32Error());
@@ -88,7 +89,7 @@ internal static class MintCursorKeeper {
     bool sizeConfirmed;
      if(Apply(s,out sizeConfirmed)){
       lastApplied=s.Signature;lastState=s.Signature;sizeReadbackUnavailable=!sizeConfirmed;
-      WriteStatus("state="+(sizeConfirmed?"applied":"readback-unconfirmed")+"\r\ncharacter="+s.Character+"\r\nsize="+s.Size+"\r\nroles=17");
+      WriteStatus("state="+(sizeConfirmed?"applied":"readback-unconfirmed")+"\r\ncharacter="+s.Character+"\r\nsize="+s.Size+"\r\nrender_size="+s.PixelSize+"\r\nroles=17");
       Log("Applied "+s.Character+" "+s.Size+"px; all 17 replacements succeeded.");
       if(!sizeConfirmed)Log("WARNING: Cursor bitmap size does not confirm the requested size. Automatic correction suspended for this selection to avoid flicker; actual display size depends on Windows.");
      }
@@ -97,6 +98,7 @@ internal static class MintCursorKeeper {
   }
   protected override void Dispose(bool disposing){if(disposing)timer.Dispose();base.Dispose(disposing);}
  }
+ internal static int ReloadOwnSelection(){try{if(ReadSelection()!=null&&!Native.Reload()){Log("Own-selection reload failed: "+Marshal.GetLastWin32Error());return 4;}return 0;}catch(Exception e){Log("Own-selection reload failed: "+e.Message);return 4;}}
  [STAThread] private static int Main(string[] args){
   try{
    if(args.Length==1&&args[0]=="--status"){
@@ -104,7 +106,7 @@ internal static class MintCursorKeeper {
    }
    if(args.Length==1&&args[0]=="--stop"){
     try{using(EventWaitHandle e=EventWaitHandle.OpenExisting(Name("stop")))e.Set();}catch(WaitHandleCannotBeOpenedException){}
-    try{using(Mutex m=Mutex.OpenExisting(Name("mutex"))){bool free=false;try{free=m.WaitOne(8000);}catch(AbandonedMutexException){free=true;}if(free)m.ReleaseMutex();return free?0:2;}}catch(WaitHandleCannotBeOpenedException){return 0;}
+    try{using(Mutex m=Mutex.OpenExisting(Name("mutex"))){bool free=false;try{free=m.WaitOne(8000);}catch(AbandonedMutexException){free=true;}if(free)m.ReleaseMutex();return free?ReloadOwnSelection():2;}}catch(WaitHandleCannotBeOpenedException){return ReloadOwnSelection();}
    }
    if(args.Length!=0)return 3;if(File.Exists(Disabled))return 0;
    bool created;using(Mutex mutex=new Mutex(true,Name("mutex"),out created)){

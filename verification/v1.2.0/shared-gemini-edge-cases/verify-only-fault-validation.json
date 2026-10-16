@@ -1,0 +1,10 @@
+{
+  "validFixtureExit": 0,
+  "corruptedFixtureExit": 1,
+  "injectionPath": "E:\\cladue缓存\\AI全家动态指针_20261012\\revisions\\全系列尺寸与配色修复发布_20261016\\verification\\verify-only-fixture\\Arrow.ani",
+  "injectedTargets": 1,
+  "noInstallBranchEntered": true,
+  "caughtBySha256": true,
+  "environment": "Windows PowerShell5.1 with PSModulePath reset, same as shipped CMD wrappers",
+  "earlierFixtureEnvironmentFailure": "Python inherited PowerShell7 PSModulePath, Get-FileHash unavailable; not counted as checksum rejection"
+}

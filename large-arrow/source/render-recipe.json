@@ -1,0 +1,25 @@
+{
+  "version": "1.2.0",
+  "sizes": [
+    32,
+    48,
+    64,
+    72,
+    96,
+    128,
+    256
+  ],
+  "render_sizes": {
+    "32": 64,
+    "48": 64,
+    "64": 96,
+    "72": 96,
+    "96": 128,
+    "128": 192,
+    "256": 352
+  },
+  "same_character_pixels_in_plus": true,
+  "palette_source": "character-palettes.json",
+  "direct_original_sources": true,
+  "edition": "large-arrow"
+}

@@ -1,0 +1,1259 @@
+{
+  "success": true,
+  "cases": 208,
+  "characters": 16,
+  "allOriginalAndPlusTiers": true,
+  "maximumRGBError": 1,
+  "noSystemCursorReplacementsOnHost": true,
+  "method": "Private native handles drawn onto explicitly initialized native24bppDIB; compare with sourcePNG alpha composite",
+  "results": [
+    {
+      "case": "astra-sol-mint-cursors-original-astra-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-astra-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-astra-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-astra-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-astra-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-astra-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-original-sol-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-astra-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "astra-sol-mint-cursors-plus-sol-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-seedream-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-original-doubao-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-seedream-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "bytedance-cursors-plus-doubao-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-original-chatgpt-dragon-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "chatgpt-dragon-cursors-plus-chatgpt-dragon-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-opus-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-sonnet-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-original-fable-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-opus-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-sonnet-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "claude-sisters-cursors-plus-fable-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-original-deepseek-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "DeepSeek-mint-cursors-plus-deepseek-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-original-gemini-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "gemini-cursors-plus-gemini-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-original-glm-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "glm-cursors-plus-glm-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-original-grok-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "grok-cursors-plus-grok-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-original-kimi-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "kimi-cursors-plus-kimi-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-original-mimo-short-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "mimo-cursors-plus-mimo-short-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-32",
+      "renderSize": 32,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-48",
+      "renderSize": 48,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-64",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-96",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-128",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-original-qwen-256",
+      "renderSize": 256,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-96",
+      "renderSize": 128,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-32",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-48",
+      "renderSize": 64,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-64",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-72",
+      "renderSize": 96,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-128",
+      "renderSize": 192,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    },
+    {
+      "case": "qwen-cursors-plus-qwen-256",
+      "renderSize": 352,
+      "maxRGBError": 1,
+      "pixelsOverOne": 0
+    }
+  ]
+}

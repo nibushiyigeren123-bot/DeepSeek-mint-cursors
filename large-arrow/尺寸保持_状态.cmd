@@ -1,5 +1,8 @@
 @echo off
 setlocal
 set "PSModulePath="
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0keeper.ps1" -Action Status
-pause
+cd /d "%~dp0"
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%~dp0keeper.ps1" -Action Status
+set "TaskExit=%errorlevel%"
+if not "%TaskExit%"=="0" pause
+exit /b %TaskExit%

@@ -1,6 +1,24 @@
 [
   {
     "character": "deepseek",
+    "size": 96,
+    "role": "Arrow",
+    "label": "正常选择",
+    "file": "cursors/deepseek/96/Arrow.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 12,
+    "jiffies": 12,
+    "frame_ms": 200.0,
+    "action": "idle",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "0078683a764a033b34818184082bfbe14e1b61fe50c393adf22281380fb610ef"
+  },
+  {
+    "character": "deepseek",
     "size": 32,
     "role": "Arrow",
     "label": "正常选择",
@@ -13,7 +31,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "c2dd7e0482debc084b2d6ccafd4e047dd672fd61b168feb921aed87daaa50b69"
   },
   {
     "character": "deepseek",
@@ -29,7 +49,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "914facb0faa6ff9a0c46ef2832bfbdf6d6a6eec3c110edb8be5cc4342b18d0c2"
   },
   {
     "character": "deepseek",
@@ -45,7 +67,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "27b56d5ef34660c7dc3576327a0fc50a117af28e1d48e27324dabda9d61d970c"
   },
   {
     "character": "deepseek",
@@ -61,7 +85,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "62bee52f1c60925531dba6b6f6bbbbd93256a0c6e2ae40a5868eac829aab6c4f"
   },
   {
     "character": "deepseek",
@@ -77,7 +103,9 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "819fc350c8ee49739745b4d8b6ff7a432bf0819e4d6391b8870c9c4c402b5176"
   },
   {
     "character": "deepseek",
@@ -93,7 +121,27 @@
     "jiffies": 12,
     "frame_ms": 200.0,
     "action": "idle",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "ab073c48bd183082b34f468944d003ca0a2f4bd7b0db69054c7def0fb4ef3466"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Help",
+    "label": "帮助选择",
+    "file": "cursors/deepseek/96/Help.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "cc332e4e5bfa962482e18a14594cf5ee63f1e23de607ec27311eb141dbecdc91"
   },
   {
     "character": "deepseek",
@@ -109,7 +157,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "1807a2b9e3c34a39f5dc5ff458f39ab49364be17e53171b101a39e10f2defe52"
   },
   {
     "character": "deepseek",
@@ -125,7 +175,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "4f2a902c92005580a5b54a29397c96829dd6889c99fd71cb7a2a6e56b9185d70"
   },
   {
     "character": "deepseek",
@@ -141,7 +193,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "2f2206d93bd3d424821d409070b167d0856e0b81bc1032ca324f0c8c86a081d5"
   },
   {
     "character": "deepseek",
@@ -157,7 +211,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "be32b9a97b19a44e62dae221310550f217470be9e20956804b92864486b0dbd4"
   },
   {
     "character": "deepseek",
@@ -173,7 +229,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "437e1ba169076ed1eafb999b0372eb0da8edb696cfe2f87b66478bdd38c14742"
   },
   {
     "character": "deepseek",
@@ -189,7 +247,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "8f99f4b497221e77b7adc2f934ddebbefabfdcfce7671eb0ed50a9279955e3b0"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "AppStarting",
+    "label": "后台运行",
+    "file": "cursors/deepseek/96/AppStarting.ani",
+    "hotspot": [
+      5,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "9f158e4010d18c720db03e0f1b9d1dcdfb5275de3b8be47629647f4a2bf881f1"
   },
   {
     "character": "deepseek",
@@ -205,7 +283,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "4fdf53761d962fe62bdba5833a206d76648058dbed6d49e37a9362d56a4ec928"
   },
   {
     "character": "deepseek",
@@ -221,7 +301,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "b1508d4ed8a61d1876984ba0a6e65104e44cf7e35db9c43fe4a931f8aca2628d"
   },
   {
     "character": "deepseek",
@@ -237,7 +319,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "7c317a45d89e3129b8c934102eaba6accbeea8223072f463ff0c651b23619458"
   },
   {
     "character": "deepseek",
@@ -253,7 +337,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "750092612f5365644f8f80cc6e3a130b4dde9ed94471f79311db76787483b500"
   },
   {
     "character": "deepseek",
@@ -269,7 +355,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "3dd4df4701ce055fb4b9b0c205996c543b593e44474b45f33338890370457717"
   },
   {
     "character": "deepseek",
@@ -285,7 +373,27 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "0967380277767d866f4a4bb440df4934e4cea1fdda4f3934b03aae4df5796cfc"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Wait",
+    "label": "忙碌",
+    "file": "cursors/deepseek/96/Wait.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 7,
+    "frame_ms": 116.66666666666667,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "46ad1a6657eb76a234ccbb8b4b35df97b8f1e16f6b962e803cf3422f691d9b8c"
   },
   {
     "character": "deepseek",
@@ -301,7 +409,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "9722645c5574e8d23940bfd9f85829c08b54caccc8237b6d161096186092be16"
   },
   {
     "character": "deepseek",
@@ -317,7 +427,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "c47103818a2df5ea77790e02b1b1d2faf7aaef32a28fa141b6f89e125de2223e"
   },
   {
     "character": "deepseek",
@@ -333,7 +445,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "307171351358c6976dc8b753af5b1c89fa46a3d2ad374b34e4ccac609665d851"
   },
   {
     "character": "deepseek",
@@ -349,7 +463,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "df8cdcbb8674feba7b69d7bb8f96c7745d5c48b5f2177de254067bd676dba10b"
   },
   {
     "character": "deepseek",
@@ -365,7 +481,9 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "d7137e11687b33ad0dc8d1631f35d92b64c1a061fd4f52ac72136780aea22b2a"
   },
   {
     "character": "deepseek",
@@ -381,7 +499,27 @@
     "jiffies": 7,
     "frame_ms": 116.66666666666667,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "2f94ce2b1c84c18b85f90382447100d539f5b116d00b28afd1efbb749e0ef9ab"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Crosshair",
+    "label": "精确选择",
+    "file": "cursors/deepseek/96/Crosshair.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "78d6e90df6f860b1e7b8dc57e33f96f2ecbeff0c9643a9431153e092dfea0548"
   },
   {
     "character": "deepseek",
@@ -397,7 +535,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "32c1bd332a99877dd1c994781e3ac0a064030053ddfc1e740005f0d4c4677bd6"
   },
   {
     "character": "deepseek",
@@ -413,7 +553,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "f72296c6257606963465c91763ac44d8d07a599f5e5279e7adfa1b0b3036d375"
   },
   {
     "character": "deepseek",
@@ -429,7 +571,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "ef93ef3ece9f9f87e6fa95191cef8e818ebbb8054c5b3642465c39f000665f73"
   },
   {
     "character": "deepseek",
@@ -445,7 +589,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "74fc79049521392b721374c40ca82e17cf709d7b841e9689fa24264d351a7cf8"
   },
   {
     "character": "deepseek",
@@ -461,7 +607,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "d043d9f413d6c90ec92a240744a7841ed0af1ee432e1284a2017288a9195e908"
   },
   {
     "character": "deepseek",
@@ -477,7 +625,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "95c2f1b7a15d8420377002fed0a026d5a3e911735ba9ae4d4c0f69467eca182d"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "IBeam",
+    "label": "文本选择",
+    "file": "cursors/deepseek/96/IBeam.ani",
+    "hotspot": [
+      11,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "working",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "779a2592d7e7606e1300bb552601667f47798a169e03b4c3d2b6f6a0bbfb2a42"
   },
   {
     "character": "deepseek",
@@ -493,7 +661,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "4ebf8074c49ccd30ec15b359ca67af8e6e70934542a3f2d88e28b9c839aa7b82"
   },
   {
     "character": "deepseek",
@@ -509,7 +679,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "e3ccdec1456b82a9f644cef675abc16e52b17bfc545379c4bbd22717e03f1dad"
   },
   {
     "character": "deepseek",
@@ -525,7 +697,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "48e3529995280267e309187754c5fb0c1b67bd534205d96294b3ac2b4cdf66b6"
   },
   {
     "character": "deepseek",
@@ -541,7 +715,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "88ebb55c1a23f74cf2dd50b9b13aed441f07bffa83197e96da8f7fb6a4757b9e"
   },
   {
     "character": "deepseek",
@@ -557,7 +733,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "10763673f3bf85e7ee86a5d02f53d44642c05c3131de6b2b1ca55eeafea15d92"
   },
   {
     "character": "deepseek",
@@ -573,7 +751,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "working",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "e2c23e6cb1a30c52dd9d0fe33400fb001522a47ec1a480b1ebf921e0fcfc0f58"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "NWPen",
+    "label": "手写",
+    "file": "cursors/deepseek/96/NWPen.ani",
+    "hotspot": [
+      5,
+      33
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "review",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "2e39af7835eb5edba4aee4f2f66accce922d8d574ad3a7b30aa38fc5101b1916"
   },
   {
     "character": "deepseek",
@@ -589,7 +787,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "7c7e2d04e6f6d022ff612ae10dd35ac647bc7ed3d742aa730e546edf4332255f"
   },
   {
     "character": "deepseek",
@@ -605,7 +805,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "badd82f7c3a4bbd2a4984751c11bb171a21eaa3ebd3a231fda7098195d76c405"
   },
   {
     "character": "deepseek",
@@ -621,7 +823,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "293cfa5cfe7b7e7d6cbd024683aee4c6484ed58077bdae3c96bcae1d63142d32"
   },
   {
     "character": "deepseek",
@@ -637,7 +841,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "a454a59fa5b4992fab304eb439064bfd135ab3281e40181186a138a1889f1f62"
   },
   {
     "character": "deepseek",
@@ -653,7 +859,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "58c5a504bbdad3cd08c71ec5ccdd8f4576457ed0db2e1797133c3a6e502e0f42"
   },
   {
     "character": "deepseek",
@@ -669,7 +877,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "review",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "49252db2b9f8f9e1bfea2c9bb7b8a33a0f2afaf8a9992ee33d039f199135017d"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "No",
+    "label": "不可用",
+    "file": "cursors/deepseek/96/No.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "failed",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "f467da78b0fceb4929fb0798cc0fa2767ca400e016b096df2ae8714c4b1b7fe0"
   },
   {
     "character": "deepseek",
@@ -685,7 +913,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "f6a8f545cc264be035f61a4c55c64aa43390e9f6f943f0c60ca855326e8668ec"
   },
   {
     "character": "deepseek",
@@ -701,7 +931,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "5a2fa71c8579b2cf6fca91f46e21547d149cb366a4f74ca5bb281493cb13e353"
   },
   {
     "character": "deepseek",
@@ -717,7 +949,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "a31e5402abf45808b6f180179127a2d6cb925b693f1e9039ce77bb0e8d023bd1"
   },
   {
     "character": "deepseek",
@@ -733,7 +967,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "8dfa1797deac7b8dd59db2f7b8c2b7f3fcbd10c38107a2d2af17cca22cb242e0"
   },
   {
     "character": "deepseek",
@@ -749,7 +985,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "0257a04bbac2ec642ba3677e65b01522cf7094285903330e32a44bd7633673b3"
   },
   {
     "character": "deepseek",
@@ -765,7 +1003,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "failed",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "134194aa2cc73bcfb4a0576a737a45ad3285c5fad404f2cc1d91f29613f7c052"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "SizeNS",
+    "label": "垂直调整",
+    "file": "cursors/deepseek/96/SizeNS.ani",
+    "hotspot": [
+      9,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "2efc8e501439ce0f4a7422b1cc5f5b9e4f38fb4fd626c518b3cfcd80119accdd"
   },
   {
     "character": "deepseek",
@@ -781,7 +1039,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "c6959ae17aa6530faf5f6a88a4a99bdaea95b2ca500c828a3bd94067a8fedb90"
   },
   {
     "character": "deepseek",
@@ -797,7 +1057,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "1bfdab6ca2c853cba4fe685454734ea5b704709c97bdedf96bce7f7c6ddd179c"
   },
   {
     "character": "deepseek",
@@ -813,7 +1075,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "e667b24ad1b742fb06bb07b14898e7ab8f3263355707712e5cc4f8bd4b581efe"
   },
   {
     "character": "deepseek",
@@ -829,7 +1093,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "3f422613a6f0696e3df7d65213fb040493fa27f58e0c4accad921920b0df1838"
   },
   {
     "character": "deepseek",
@@ -845,7 +1111,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "2b8d6499519b609c621c9574f778053fb5202225d604db946045e38258ab30e2"
   },
   {
     "character": "deepseek",
@@ -861,7 +1129,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "0aa8b9757f3192559f4a03f619c1e0f4b1eb0ffa2411c77e70b0f8843f06c431"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "SizeWE",
+    "label": "水平调整",
+    "file": "cursors/deepseek/96/SizeWE.ani",
+    "hotspot": [
+      19,
+      9
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "686ff03f6b05305b212eaafbdcc7fd9e367efaf935769697a82899ae4042b66b"
   },
   {
     "character": "deepseek",
@@ -877,7 +1165,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "7a16d9db42b3f287c714195235cb05f9f833189e0aeb60346f3de117b966228d"
   },
   {
     "character": "deepseek",
@@ -893,7 +1183,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "b541eb6015fa130fcad24ef4e8713a6bd5ba6afedf0e9cdf3b6856f88b946f51"
   },
   {
     "character": "deepseek",
@@ -909,7 +1201,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "431e457d473e3f6d8dee26ba072077ec9810d33e25c5674953333deb90740304"
   },
   {
     "character": "deepseek",
@@ -925,7 +1219,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "892855390c75d76f023d3ee664d0c899d4fcf3106d664f17d0aaf04f71c43dce"
   },
   {
     "character": "deepseek",
@@ -941,7 +1237,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "1f7c5a6d282d28d738dfb52aa97b28b96647baf9cb24929bbac6e17bc62b1c37"
   },
   {
     "character": "deepseek",
@@ -957,7 +1255,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "ccc4b5cbb836648f92715874da670680c78fa6f0aa79150a0c081530b6d54e78"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "SizeNWSE",
+    "label": "对角调整1",
+    "file": "cursors/deepseek/96/SizeNWSE.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "6dedc293d6094859d7b38c2b0dec1c69637320fbf10943ce0139321fb82d5be5"
   },
   {
     "character": "deepseek",
@@ -973,7 +1291,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "23eef18d33f9f659b3fbea62bc5cfd6a77336a7ccde023997e9623b74a755334"
   },
   {
     "character": "deepseek",
@@ -989,7 +1309,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "9d9e47cc0335a4607e9b3ed354d02f5bb5d2d61a890c4ca09d6e4c545e952d16"
   },
   {
     "character": "deepseek",
@@ -1005,7 +1327,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "dd12100ba28c2bfd7bbc52fc43e09747fd7f8522400b7ecc159ccfad846e69a2"
   },
   {
     "character": "deepseek",
@@ -1021,7 +1345,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "9460795136bded6eae27ee0b720a98645f9ba43ded827754b39304f0bb3ed15d"
   },
   {
     "character": "deepseek",
@@ -1037,7 +1363,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "24e01830c82ed5e53ed9250cb3c8ebfb25bd6af7e76634e0559631e2e19f05a1"
   },
   {
     "character": "deepseek",
@@ -1053,7 +1381,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "ecc4b044e92ade35b80370c03e177a4e2f0cceece06b76b634b92418869e052f"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "SizeNESW",
+    "label": "对角调整2",
+    "file": "cursors/deepseek/96/SizeNESW.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-left",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "b6293b908dc44f0969c3564a7354e1f5b51087ba5b6e87cc0ecd5ee7da3a04d4"
   },
   {
     "character": "deepseek",
@@ -1069,7 +1417,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "85f2235bf147c2ccf249f2d46062b649f0b8b8d3b5d8506620bfe558a257ff8b"
   },
   {
     "character": "deepseek",
@@ -1085,7 +1435,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "5f9f66cad71ea5d2661ee872618d87bc1be11c62f3f3164e24aad713570d999d"
   },
   {
     "character": "deepseek",
@@ -1101,7 +1453,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "b6e5165f94bdd8b0301420316822f27ab36f87033a71519c9c8413212c18d3b4"
   },
   {
     "character": "deepseek",
@@ -1117,7 +1471,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "bdf6c5c4a3468afd5ed4e43b637fbe1fe3de6510efbf2d9f59fdf22105f223e3"
   },
   {
     "character": "deepseek",
@@ -1133,7 +1489,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "1508b776141ee7aa37bb29a990c9e37b33bae3d771b57f4c7c7779782ffa7cd5"
   },
   {
     "character": "deepseek",
@@ -1149,7 +1507,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-left",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "f084f4b09a123876419d3e9271b28677be0893720892a993d03fd9bc15cda09b"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "SizeAll",
+    "label": "移动",
+    "file": "cursors/deepseek/96/SizeAll.ani",
+    "hotspot": [
+      19,
+      19
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "running-right",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "7e328114d612fe027821c19194eba01cc806a172507f5cbcf2e2cc2b5b4fed64"
   },
   {
     "character": "deepseek",
@@ -1165,7 +1543,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "5216641c38298b16493b437612e950ec2c2bb432d5f3bed067a256e9ccf15734"
   },
   {
     "character": "deepseek",
@@ -1181,7 +1561,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "76ffa42d45b629e28f5d53da5c7731be86f5785abed59b1a9175ebc60d259104"
   },
   {
     "character": "deepseek",
@@ -1197,7 +1579,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "8a770eda96591cc2690f3d41f7256cae1f82dd2bf786639daa59ee2ce0a570a5"
   },
   {
     "character": "deepseek",
@@ -1213,7 +1597,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "22354d53892571312a7cb4b2343bd59e01d2f0c72dc9eabb9a17bef765dc9d56"
   },
   {
     "character": "deepseek",
@@ -1229,7 +1615,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "9dfb176f28207ceb73aeda9d47681378434cfdce7e0a2d5356ba0220217b9afd"
   },
   {
     "character": "deepseek",
@@ -1245,7 +1633,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "running-right",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "8af0ce87f0fd68e284e94dc650d790505620b6e8a45269d7b2c545a2f4213dd7"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "UpArrow",
+    "label": "候选选择",
+    "file": "cursors/deepseek/96/UpArrow.ani",
+    "hotspot": [
+      17,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "jumping",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "32a18dfa6973b8460f2cfd2b03e894ae08f49e05ce76103cfff25cabd009710c"
   },
   {
     "character": "deepseek",
@@ -1261,7 +1669,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "c09c9f449e22867412457167ba36fe91308529c8ddbca39dee5c9c7e67823aee"
   },
   {
     "character": "deepseek",
@@ -1277,7 +1687,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "94af8b2d8b68b89ef99c64d3b9bfe082894fc23d98d13f72e6102381e15d7473"
   },
   {
     "character": "deepseek",
@@ -1293,7 +1705,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "687c170d9789ed5ca7a4267530ece1e882830c843b2f910ccd7e2e0d759757f8"
   },
   {
     "character": "deepseek",
@@ -1309,7 +1723,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "f34ee2d2a59ea6548cddeba5d3175f0101f25db4e9dec2345b6a3fa62703381b"
   },
   {
     "character": "deepseek",
@@ -1325,7 +1741,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "0a7cc2c97942bf0301d466d5ed643e1046634a06b257d77613a6638f9d8cb458"
   },
   {
     "character": "deepseek",
@@ -1341,7 +1759,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "jumping",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "6f2c1541fd5ba36950cb719611b058def33f8f91af66b7f1775518a55a4b4f50"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Hand",
+    "label": "链接选择",
+    "file": "cursors/deepseek/96/Hand.ani",
+    "hotspot": [
+      13,
+      5
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "1a1ea8ce1cc8d8fe5f89d1f9ae71ae90b8f07885aef68f204143af5b9eb8136a"
   },
   {
     "character": "deepseek",
@@ -1357,7 +1795,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "d00d8839fd4e49ad11b842fdc86e5c3169887b5892407135ad393c0a08e55764"
   },
   {
     "character": "deepseek",
@@ -1373,7 +1813,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "b4a811e9bba7ce64bac80b9a1980faeebf4a45a1840e501c727590f294d6ef63"
   },
   {
     "character": "deepseek",
@@ -1389,7 +1831,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "4d97496c95160b8e02c4ad5fd09102d13d1583a5f9718417dff53ad8d64dde3c"
   },
   {
     "character": "deepseek",
@@ -1405,7 +1849,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "bb8250dc7b6fa16597d2481fb4182087a6c6b255d3ddabcef9da041f66650a13"
   },
   {
     "character": "deepseek",
@@ -1421,7 +1867,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "1bee466d140b8bdec99ec659d4b48ae768e6d2878efbcfd698608947ff2604b3"
   },
   {
     "character": "deepseek",
@@ -1437,7 +1885,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "6b179b88e34f36b655e706531995d5983c12d87a8546453818088ce727a50c5e"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Pin",
+    "label": "位置选择",
+    "file": "cursors/deepseek/96/Pin.ani",
+    "hotspot": [
+      16,
+      34
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waiting",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "f13cd390690d4eb55db7bae1af10d6e5640c76f59cd6e2a1718dba852baa9f5e"
   },
   {
     "character": "deepseek",
@@ -1453,7 +1921,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "4f83e0c546a654ab283f31f49984d0807a09c7a29a46d1acde03d36b4b6b6ee9"
   },
   {
     "character": "deepseek",
@@ -1469,7 +1939,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "5d79a940143376f573e598697923534585249f107ef92eba28fde6e8758990b5"
   },
   {
     "character": "deepseek",
@@ -1485,7 +1957,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "435a90ebe853249f7aa119d9105895cbebac256d5ef217fff63f100950aeb88d"
   },
   {
     "character": "deepseek",
@@ -1501,7 +1975,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "903e14a9d02e11da86fc4ef930a112bd6d9d54c945e47a122aaec6154b0f173e"
   },
   {
     "character": "deepseek",
@@ -1517,7 +1993,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "c7398a11accf1ba42af2554d3249537bb5849650102ffcd4f84daf741f756503"
   },
   {
     "character": "deepseek",
@@ -1533,7 +2011,27 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waiting",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "e0b700790a2b30ed51e9616c521b4d6884eceb885a7704b8b42d1825fa94a46a"
+  },
+  {
+    "character": "deepseek",
+    "size": 96,
+    "role": "Person",
+    "label": "人员选择",
+    "file": "cursors/deepseek/96/Person.ani",
+    "hotspot": [
+      18,
+      10
+    ],
+    "frames": 8,
+    "jiffies": 8,
+    "frame_ms": 133.33333333333334,
+    "action": "waving",
+    "render_size": 128,
+    "character_reference_size": 96,
+    "sha256": "182b5a765c140b8c8fc16e9ea753ead84a43acb2c1bb378c16e9d30ec13217ee"
   },
   {
     "character": "deepseek",
@@ -1549,7 +2047,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 21
+    "render_size": 64,
+    "character_reference_size": 32,
+    "sha256": "e7a923c6c6d25e40002750327931eb88132e40343be3a52b846f051435ace31a"
   },
   {
     "character": "deepseek",
@@ -1565,7 +2065,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 32
+    "render_size": 64,
+    "character_reference_size": 48,
+    "sha256": "8b86258cc7e8fcbb9c18cc2811af2527cf645bff80b900c97d1a716d42d08b9e"
   },
   {
     "character": "deepseek",
@@ -1581,7 +2083,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 43
+    "render_size": 96,
+    "character_reference_size": 64,
+    "sha256": "122519c563c753665e289815884bdb7e4717c9b81eeff72d58eb66f536bd1d4f"
   },
   {
     "character": "deepseek",
@@ -1597,7 +2101,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 48
+    "render_size": 96,
+    "character_reference_size": 72,
+    "sha256": "e1c6cfafce9048466474ed0485f6ecd3fd736a17a82f0b5c0192f86f3c03c3b3"
   },
   {
     "character": "deepseek",
@@ -1613,7 +2119,9 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 85
+    "render_size": 192,
+    "character_reference_size": 128,
+    "sha256": "613078a8e1cd5612c04f81eb657ce37ae9191789b6e828e59d2ba9dcfec93aa4"
   },
   {
     "character": "deepseek",
@@ -1629,6 +2137,8 @@
     "jiffies": 8,
     "frame_ms": 133.33333333333334,
     "action": "waving",
-    "character_tile": 171
+    "render_size": 352,
+    "character_reference_size": 256,
+    "sha256": "c89516b51f202279b9090c6a82522e8a84e5e4ee73085d06a6337226b7c20093"
   }
 ]

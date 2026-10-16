@@ -1,0 +1,19 @@
+{
+    "success":  true,
+    "action":  "power-cycle",
+    "utc":  "2026-10-15T19:33:19.7053671Z",
+    "error":  null,
+    "beforeBoot":  {
+                       "value":  "2026-10-15T19:32:38.7286510Z",
+                       "PSComputerName":  "Windows11-Lab",
+                       "RunspaceId":  "e8913e51-fd50-48e3-8259-719752e9b598",
+                       "PSShowComputerName":  true
+                   },
+    "afterBoot":  {
+                      "value":  "2026-10-15T19:33:24.4641660Z",
+                      "PSComputerName":  "Windows11-Lab",
+                      "RunspaceId":  "a29ed317-d3f6-44d0-8dd4-e5e917cd6dd1",
+                      "PSShowComputerName":  true
+                  },
+    "vmState":  "Running"
+}
