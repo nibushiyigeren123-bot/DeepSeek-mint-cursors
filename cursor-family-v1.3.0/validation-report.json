@@ -1,0 +1,562 @@
+{
+  "version": "v1.3.0",
+  "status": "engineering_qualification_completed_with_timing_limitations",
+  "scope": "Two product lines, original means non-avoidance; no host installation or game test.",
+  "coreSha256": {
+    "non-avoidance": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+    "avoidance": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74"
+  },
+  "matrixStatePoints": 14144,
+  "matrixCoverage": [
+    {
+      "product": "non-avoidance",
+      "os": "win10",
+      "profiles": 208,
+      "statePoints": 3536,
+      "singleRuntimeAcrossAllProfiles": true
+    },
+    {
+      "product": "avoidance",
+      "os": "win10",
+      "profiles": 208,
+      "statePoints": 3536,
+      "singleRuntimeAcrossAllProfiles": true
+    },
+    {
+      "product": "non-avoidance",
+      "os": "win11",
+      "profiles": 208,
+      "statePoints": 3536,
+      "singleRuntimeAcrossAllProfiles": false
+    },
+    {
+      "product": "avoidance",
+      "os": "win11",
+      "profiles": 208,
+      "statePoints": 3536,
+      "singleRuntimeAcrossAllProfiles": true
+    }
+  ],
+  "staticOriginalAnimation": {
+    "frames": 27664,
+    "allNative32": true,
+    "exactVisibleReconstruction": true,
+    "oneAnimationClock": true,
+    "minimumNativeStaticVisiblePixels": 8,
+    "maximumDecodedProfileBytes": 61952000
+  },
+  "finalScopedColdBoots": [
+    {
+      "os": "win10",
+      "product": "non-avoidance",
+      "case": "original-round1-win10-scoped-original-coldboot",
+      "sharedRoles": 17,
+      "nativeCanvas": [
+        32,
+        32
+      ],
+      "finalOwnedProcesses": 0,
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b"
+    },
+    {
+      "os": "win10",
+      "product": "avoidance",
+      "case": "original-round1-win10-scoped-avoidance-coldboot",
+      "sharedRoles": 17,
+      "nativeCanvas": [
+        32,
+        32
+      ],
+      "finalOwnedProcesses": 0,
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74"
+    },
+    {
+      "os": "win11",
+      "product": "non-avoidance",
+      "case": "original-round1-win11-scoped-original-coldboot",
+      "sharedRoles": 17,
+      "nativeCanvas": [
+        32,
+        32
+      ],
+      "finalOwnedProcesses": 0,
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b"
+    },
+    {
+      "os": "win11",
+      "product": "avoidance",
+      "case": "original-round1-win11-scoped-avoidance-coldboot",
+      "sharedRoles": 17,
+      "nativeCanvas": [
+        32,
+        32
+      ],
+      "finalOwnedProcesses": 0,
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74"
+    }
+  ],
+  "scopedInstallerIntegration": [
+    {
+      "os": "win10",
+      "repositories": [
+        "astra-sol-mint-cursors",
+        "bytedance-cursors"
+      ],
+      "products": 2,
+      "crossPackageRestoreAndRollbackRecoveryPassed": true
+    },
+    {
+      "os": "win11",
+      "repositories": [
+        "astra-sol-mint-cursors",
+        "bytedance-cursors"
+      ],
+      "products": 2,
+      "crossPackageRestoreAndRollbackRecoveryPassed": true
+    }
+  ],
+  "finalColdBootPackageScope": "Astra/Sol representative package, two products by two operating systems; production SHA is shared across repositories. Not 22 separate cold-boot tests.",
+  "productionPerformance": [
+    {
+      "os": "win10",
+      "product": "avoidance",
+      "caseProductionCoreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "sampleSeconds": 6,
+      "samples": 6,
+      "singleRuntimeProcess": true,
+      "workingSetMiBRange": [
+        38.921875,
+        39.66015625
+      ],
+      "privateMiBRange": [
+        34.5390625,
+        36.6796875
+      ],
+      "cpuPercentOfFourVcpuVmTotalRange": [
+        0,
+        0.13006101322365488
+      ],
+      "qualification": "Short VM samples with timer quantization; zero samples do not imply zero CPU usage. Not a host latency or long-term leak test."
+    },
+    {
+      "os": "win11",
+      "product": "avoidance",
+      "caseProductionCoreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "sampleSeconds": 6,
+      "samples": 6,
+      "singleRuntimeProcess": true,
+      "workingSetMiBRange": [
+        53.5625,
+        56.04296875
+      ],
+      "privateMiBRange": [
+        40.61328125,
+        43.00390625
+      ],
+      "cpuPercentOfFourVcpuVmTotalRange": [
+        0.12987223481232527,
+        0.32511952746326783
+      ],
+      "qualification": "Short VM samples with timer quantization; zero samples do not imply zero CPU usage. Not a host latency or long-term leak test."
+    },
+    {
+      "os": "win10",
+      "product": "non-avoidance",
+      "caseProductionCoreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "sampleSeconds": 6,
+      "samples": 6,
+      "singleRuntimeProcess": true,
+      "workingSetMiBRange": [
+        72.4765625,
+        74.046875
+      ],
+      "privateMiBRange": [
+        76.30859375,
+        79.04296875
+      ],
+      "cpuPercentOfFourVcpuVmTotalRange": [
+        0,
+        0.06500592105131778
+      ],
+      "qualification": "Short VM samples with timer quantization; zero samples do not imply zero CPU usage. Not a host latency or long-term leak test."
+    },
+    {
+      "os": "win11",
+      "product": "non-avoidance",
+      "caseProductionCoreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "sampleSeconds": 6,
+      "samples": 6,
+      "singleRuntimeProcess": true,
+      "workingSetMiBRange": [
+        81.10546875,
+        83.90625
+      ],
+      "privateMiBRange": [
+        73.60546875,
+        76.25
+      ],
+      "cpuPercentOfFourVcpuVmTotalRange": [
+        0.06502450622782871,
+        0.38950266753862084
+      ],
+      "qualification": "Short VM samples with timer quantization; zero samples do not imply zero CPU usage. Not a host latency or long-term leak test."
+    }
+  ],
+  "runtimeChecks": {
+    "duplicateRejectionPerOs": 3,
+    "closeCyclesPerOs": 5,
+    "externalSchemeCyclesPerOs": 5,
+    "instrumentedTrackingSamplesPerOs": 360,
+    "underlyingClickReachedControl": true,
+    "statusLockRetryAndOwnedCrashRecovery": true
+  },
+  "packages": [
+    {
+      "repository": "astra-sol-mint-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "astra",
+        "sol"
+      ],
+      "profiles": 26,
+      "name": "astra-sol-mint-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 60667550,
+      "sha256": "d27adb91b5b5be7052c0bc3423277504c999292a61b0f1399fcec489a7994632",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "astra-sol-mint-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "astra",
+        "sol"
+      ],
+      "profiles": 26,
+      "name": "astra-sol-mint-cursors-avoidance-v1.3.0.zip",
+      "bytes": 29839496,
+      "sha256": "54cfbb34f7e99bfb4e72302259a0300ce9f08e308777bc99997b7c51c8ae9437",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "bytedance-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "seedream",
+        "doubao"
+      ],
+      "profiles": 26,
+      "name": "bytedance-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 71171658,
+      "sha256": "33f8f6aa8d43fc99fed9c5ee41d000769717d1b7962c79682e5d0d0d70d2e9fe",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "bytedance-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "seedream",
+        "doubao"
+      ],
+      "profiles": 26,
+      "name": "bytedance-cursors-avoidance-v1.3.0.zip",
+      "bytes": 35125393,
+      "sha256": "d58f2195f332878e7acf3e18e59bc05a61409704de8fbb24969804eb8ac5c94b",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "chatgpt-dragon-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "chatgpt-dragon"
+      ],
+      "profiles": 13,
+      "name": "chatgpt-dragon-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 45448935,
+      "sha256": "f0bf3515869076a35d21d7dca22986ec0bf193308fe502f1e9e7143b1f3a1952",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "chatgpt-dragon-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "chatgpt-dragon"
+      ],
+      "profiles": 13,
+      "name": "chatgpt-dragon-cursors-avoidance-v1.3.0.zip",
+      "bytes": 22701458,
+      "sha256": "6d7e47e19cd6110dc338e1c4fe80602c5b9f13b2ea3544cc3e9f82b5be7dcc1b",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "claude-sisters-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "opus",
+        "sonnet",
+        "fable"
+      ],
+      "profiles": 39,
+      "name": "claude-sisters-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 128213634,
+      "sha256": "06bf167093df4ffa87861ea20bc434120ab647fbeae78d864279b8c8f9de2c1a",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "claude-sisters-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "opus",
+        "sonnet",
+        "fable"
+      ],
+      "profiles": 39,
+      "name": "claude-sisters-cursors-avoidance-v1.3.0.zip",
+      "bytes": 63896183,
+      "sha256": "1cf94725c89bdc824e59d0e6fc54724a5b17398083debd69ae8e118912020f9b",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "DeepSeek-mint-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "deepseek"
+      ],
+      "profiles": 13,
+      "name": "DeepSeek-mint-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 43183036,
+      "sha256": "2d2e8207e12d6d0c9b80ef79fdc1bf83a295c35ad9cab9afbb1686571b0ea440",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "DeepSeek-mint-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "deepseek"
+      ],
+      "profiles": 13,
+      "name": "DeepSeek-mint-cursors-avoidance-v1.3.0.zip",
+      "bytes": 21517109,
+      "sha256": "63e09b25d0741acb44ee35b3f9478a92c24683240fc4b2543edc08e9d9c0780a",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "gemini-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "gemini"
+      ],
+      "profiles": 13,
+      "name": "gemini-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 46307526,
+      "sha256": "ed326b091815256f14a32b0d5a6071fc0dc87097f69631a589d5528a18f71c15",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "gemini-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "gemini"
+      ],
+      "profiles": 13,
+      "name": "gemini-cursors-avoidance-v1.3.0.zip",
+      "bytes": 23162759,
+      "sha256": "bea0ba144416ef45e1b0b0a1a610666e9860186e2f00dc2a8227542939a9a911",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "glm-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "glm"
+      ],
+      "profiles": 13,
+      "name": "glm-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 48016801,
+      "sha256": "0b584d69773fad3c06122c37f0aae492dbf71a7f72241d794ce54d5c14993be2",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "glm-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "glm"
+      ],
+      "profiles": 13,
+      "name": "glm-cursors-avoidance-v1.3.0.zip",
+      "bytes": 24022569,
+      "sha256": "329803a15e6103fdbfd32e06f502095c53093638574effdc5555c8a14e6b95f5",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "grok-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "grok"
+      ],
+      "profiles": 13,
+      "name": "grok-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 50248834,
+      "sha256": "a2e9cb9c6c4dc957c6c3d89c7cb98e0140e46f2adde0c67269bf994084bbb3a0",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "grok-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "grok"
+      ],
+      "profiles": 13,
+      "name": "grok-cursors-avoidance-v1.3.0.zip",
+      "bytes": 25250623,
+      "sha256": "84c7511a448a5e2c032a483ca66b5b1fabe01922472e1a4bea73e0a4951c102a",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "kimi-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "kimi"
+      ],
+      "profiles": 13,
+      "name": "kimi-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 47196329,
+      "sha256": "90aa26238745f5a34c67ee254c241b97adaf42c90baecc0c08374777baae8624",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "kimi-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "kimi"
+      ],
+      "profiles": 13,
+      "name": "kimi-cursors-avoidance-v1.3.0.zip",
+      "bytes": 23612126,
+      "sha256": "6eb523524c600418d538d4105a77fc503550dc093b0d2610f966493d4876296a",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "mimo-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "mimo",
+        "mimo-short"
+      ],
+      "profiles": 26,
+      "name": "mimo-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 73590304,
+      "sha256": "8a53e4f0b456cac343c32276c98d642e0c7a8842b6df9679e0e1aa586043f8ea",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "mimo-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "mimo",
+        "mimo-short"
+      ],
+      "profiles": 26,
+      "name": "mimo-cursors-avoidance-v1.3.0.zip",
+      "bytes": 36489092,
+      "sha256": "fd99bd32207ab4448056650e03c0fde5a13da2e585a1c47224cfabc5a4da1c03",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "qwen-cursors",
+      "kind": "non-avoidance",
+      "characters": [
+        "qwen"
+      ],
+      "profiles": 13,
+      "name": "qwen-cursors-non-avoidance-v1.3.0.zip",
+      "bytes": 45520173,
+      "sha256": "fa8317075ce4e6eb8bced0ee3a7a1c2908493a08a195073a03b2d27f66789583",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    },
+    {
+      "repository": "qwen-cursors",
+      "kind": "avoidance",
+      "characters": [
+        "qwen"
+      ],
+      "profiles": 13,
+      "name": "qwen-cursors-avoidance-v1.3.0.zip",
+      "bytes": 22770355,
+      "sha256": "abbd1db29fd9088b933d63e8a39fd18d7852aefd96225adbc11d89cfb18ac307",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "allMembersRehashed": true,
+      "allFrameReferencesPresent": true
+    }
+  ],
+  "userVisualDecisions": {
+    "avoidanceProportions": "approved",
+    "nonAvoidanceNaturalImeOcclusion": "accepted"
+  },
+  "knownLimits": [
+    "Original Win11 final chunk initially failed Kimi original128 Wait after 500ms; runtime recorded maximum callback interval 953.0525ms. The same production build passed the 52-profile chunk in a new process. Cause not proven; 208 Win11 profiles were not all covered in one uninterrupted process.",
+    "Original Win11 first normal tracking attempt failed 36 points without saved point records. Later guarded-input runs passed; the first cause remains unknown.",
+    "Earlier r5 Win11 80ms stale-position observations, Win10 initial Tooltip outside-character failure, and Win11 initial 36-point tracking failure remain in the private raw engineering evidence; clean final sequences passed, causes not all established.",
+    "An earlier generic r5 Win11 cold-boot fixture read a stale status PID 4476 which had already exited and failed. It is not counted as a pass; later final scoped package cold boots independently passed. The early failure cause was not established.",
+    "Matrix position checks allow up to 500ms to settle and retain 80ms observations. They are functional coverage, not user high-refresh latency acceptance.",
+    "Host 200Hz feel and real-game behavior were not tested; host cursors were not changed.",
+    "The installers accept an existing 32px global preference and refuse other preferences without changing them.",
+    "Non-avoidance does not actively clip or move artwork away from popups; system IME layers may naturally cover the intersecting artwork."
+  ],
+  "video": {
+    "width": 1024,
+    "height": 768,
+    "fps": 30,
+    "duration": 110.5,
+    "selections": 45,
+    "scope": "real Win10 desktop recording; no voice/audio track",
+    "fullDecodePassed": true
+  },
+  "vmCleanup": {
+    "bothSavedCheckpointsRestored": true,
+    "bothVmsOff": true,
+    "finalOwnedCursorProcessesPerVm": 0
+  },
+  "evidenceBoundary": "All 22 ZIPs were rehashed and frame references checked. Actual scoped installer and rollback tests use two representative repositories per OS; immutable display cores/assets derive from full 208-profile matrices."
+}

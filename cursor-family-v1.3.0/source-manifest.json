@@ -1,0 +1,26 @@
+{
+  "version": "v1.3.0",
+  "packages": [
+    {
+      "kind": "non-avoidance",
+      "name": "DeepSeek-mint-cursors-non-avoidance-v1.3.0.zip",
+      "sha256": "2d2e8207e12d6d0c9b80ef79fdc1bf83a295c35ad9cab9afbb1686571b0ea440",
+      "coreSha256": "439155a4cd911b60b6d67880a386a105ee86687419cb2531346d20abbce4349b",
+      "profiles": 13,
+      "characters": [
+        "deepseek"
+      ]
+    },
+    {
+      "kind": "avoidance",
+      "name": "DeepSeek-mint-cursors-avoidance-v1.3.0.zip",
+      "sha256": "63e09b25d0741acb44ee35b3f9478a92c24683240fc4b2543edc08e9d9c0780a",
+      "coreSha256": "95a24bd9db6be92a126df4babc201e73aba80808a5d0504d644ab95b119fff74",
+      "profiles": 13,
+      "characters": [
+        "deepseek"
+      ]
+    }
+  ],
+  "resources": "Complete editable PNG/ANI assets are included in the corresponding installation ZIP."
+}

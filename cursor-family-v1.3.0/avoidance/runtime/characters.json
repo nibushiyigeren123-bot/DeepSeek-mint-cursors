@@ -1,0 +1,171 @@
+[
+  {
+    "id": "deepseek-original-32",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 32档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 32",
+    "edition": "original",
+    "size": 32,
+    "symbolLongEdge": 8,
+    "bodyCanvas": [
+      32,
+      32
+    ]
+  },
+  {
+    "id": "deepseek-original-48",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 48档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 48",
+    "edition": "original",
+    "size": 48,
+    "symbolLongEdge": 12,
+    "bodyCanvas": [
+      48,
+      48
+    ]
+  },
+  {
+    "id": "deepseek-original-64",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 64档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 64",
+    "edition": "original",
+    "size": 64,
+    "symbolLongEdge": 16,
+    "bodyCanvas": [
+      62,
+      64
+    ]
+  },
+  {
+    "id": "deepseek-original-96",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 96档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 96",
+    "edition": "original",
+    "size": 96,
+    "symbolLongEdge": 20,
+    "bodyCanvas": [
+      90,
+      96
+    ]
+  },
+  {
+    "id": "deepseek-original-128",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 128档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 128",
+    "edition": "original",
+    "size": 128,
+    "symbolLongEdge": 24,
+    "bodyCanvas": [
+      118,
+      127
+    ]
+  },
+  {
+    "id": "deepseek-original-256",
+    "character": "deepseek",
+    "display": "DeepSeek 普通 256档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek original 256",
+    "edition": "original",
+    "size": 256,
+    "symbolLongEdge": 28,
+    "bodyCanvas": [
+      225,
+      244
+    ]
+  },
+  {
+    "id": "deepseek-plus-32",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 32档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 32",
+    "edition": "plus",
+    "size": 32,
+    "symbolLongEdge": 12,
+    "bodyCanvas": [
+      32,
+      32
+    ]
+  },
+  {
+    "id": "deepseek-plus-48",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 48档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 48",
+    "edition": "plus",
+    "size": 48,
+    "symbolLongEdge": 16,
+    "bodyCanvas": [
+      48,
+      48
+    ]
+  },
+  {
+    "id": "deepseek-plus-64",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 64档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 64",
+    "edition": "plus",
+    "size": 64,
+    "symbolLongEdge": 20,
+    "bodyCanvas": [
+      62,
+      64
+    ]
+  },
+  {
+    "id": "deepseek-plus-72",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 72档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 72",
+    "edition": "plus",
+    "size": 72,
+    "symbolLongEdge": 22,
+    "bodyCanvas": [
+      68,
+      72
+    ]
+  },
+  {
+    "id": "deepseek-plus-96",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 96档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 96",
+    "edition": "plus",
+    "size": 96,
+    "symbolLongEdge": 24,
+    "bodyCanvas": [
+      90,
+      96
+    ]
+  },
+  {
+    "id": "deepseek-plus-128",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 128档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 128",
+    "edition": "plus",
+    "size": 128,
+    "symbolLongEdge": 28,
+    "bodyCanvas": [
+      118,
+      127
+    ]
+  },
+  {
+    "id": "deepseek-plus-256",
+    "character": "deepseek",
+    "display": "DeepSeek Plus 256档",
+    "scheme": "AI Family avoidance v1.3.0 - deepseek plus 256",
+    "edition": "plus",
+    "size": 256,
+    "symbolLongEdge": 30,
+    "bodyCanvas": [
+      225,
+      244
+    ]
+  }
+]
