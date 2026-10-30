@@ -1,3 +1,13 @@
+## v1.3.1：全系列三项共同修复
+
+[下载 v1.3.1 两线安装包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.3.1) · [验证范围与已知限制](cursor-family-v1.3.1/VALIDATION.md) · [本版源码](cursor-family-v1.3.1/)
+
+修正高缩放时 Person 共享光标尺寸失败，改进重启/登录后人物恢复及人物置顶恢复。非避让与避让两版都已更新，原有角色美术、动画及尺寸选项保留。Win10/Win11 虚拟机代表场景已覆盖 100%–200%；具体实机与未覆盖场景见验证说明。
+
+完整解压所选 ZIP，再进入角色目录运行普通或 Plus 的尺寸入口；启用后保持安装目录不移动。登录后人物可能需要稍等才出现。关闭使用“关闭并恢复.cmd”。旧版下载和以下历史说明保留。
+
+---
+
 ## v1.3.0：原版尺寸修复与新避让版
 
 [下载新版独立安装包、实机展示视频与验证报告](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.3.0)

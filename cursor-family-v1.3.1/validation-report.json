@@ -1,0 +1,68 @@
+{
+  "version": "v1.3.1",
+  "date": "2026-10-30",
+  "acceptance": "Reported three common-engine fixes verified in representative Win10 and Win11 VM cases, with stated limits",
+  "packages": 22,
+  "repositories": 11,
+  "profilesPerEdition": 208,
+  "frozenAssetMembersUnchanged": 50048,
+  "coreSha256": {
+    "non-avoidance": "da0f6f24410b05003d9b7c6ca52775504a04f6f5a8e03baff54d13a35e9eecb3",
+    "avoidance": "6eecbbe258f7ed49f2665515470e951175b1f041ae2731c12f5d159c39b17ecd"
+  },
+  "verified": {
+    "representative": "Astra both product lines, with Gemini original/Plus and cross-repository spot checks",
+    "windowsBuilds": [
+      19045,
+      26300
+    ],
+    "scalesPercent": [
+      100,
+      125,
+      150,
+      200
+    ],
+    "sharedCursorRoles": 17,
+    "normalReboots": 6,
+    "nativeDpiContexts": [
+      "unaware",
+      "system aware",
+      "per-monitor v2"
+    ],
+    "repeatedDemotionAndCoveringWindowRecovery": true,
+    "startupGraceTransientAndPersistentMismatch": true,
+    "explicitStopAndCrossEditionCleanup": true,
+    "defaultPersonStopPixelAndHotspotRestore": true,
+    "currentCandidatePerformanceSamples": 48,
+    "sampleDurationSeconds": 6,
+    "sampleSizes": [
+      96,
+      256
+    ],
+    "sameVmOldNewWin10Comparison": true,
+    "finalVersionAstraBothPackageSmoke": true,
+    "finalVsTestedRc2OnlyReadmeAndSchemeTextChanged": true
+  },
+  "limits": [
+    "Win11 startup can be delayed: the 200% non-avoidance process naturally appeared about 46.26 seconds after Explorer, beyond the initial 35-second observer. Original observation is retained.",
+    "Custom-theme Person Stop restoration can return the registry path while shared pixels differ. This pre-existing code path was not changed; causality versus the old build was not established. Failed subchecks remain visible.",
+    "The old Win11 non-avoidance baseline was quarantined by Defender after its six 96-size samples, leaving old Win11 avoidance/256/reboot comparisons uncollected. Current candidate interval showed no new detection events; protection stayed enabled.",
+    "Tests used 4-vCPU, 8-GiB VMs with 1024x768 capture and approximately 64Hz tracking; no physical Surface Pro7 2736x1824, mixed-monitor DPI or 200Hz acceptance.",
+    "Zero CPU-time deltas are not zero cost; cycle counters are only compared within the same VM.",
+    "Full 416-profile runtime matrix was cancelled at the user's reduced representative-test scope; all 22 packages received static member/hash/frame-reference checks.",
+    "Person ANI structure and per-step source pixels were preserved; identical source steps do not prove distinct visible animation frames or timing."
+  ],
+  "sourceValidationSha256": "1fedde59f245539542903fcb5fd5eb9faad7e575e2977275c0cd402a5bd1ba1e",
+  "performance": {
+    "workingSetMiB": [
+      28.46,
+      61.81
+    ],
+    "movingCpuMaxPercentOfVmTotal": 0.456,
+    "vCpu": 4,
+    "memoryGiB": 8,
+    "samples": 48,
+    "sampleSeconds": 6,
+    "gpuMeasuredIndependently": false
+  }
+}
