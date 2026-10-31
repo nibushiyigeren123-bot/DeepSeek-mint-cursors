@@ -1,0 +1,134 @@
+[
+  {
+    "repository": "astra-sol-mint-cursors",
+    "edition": "original",
+    "directory": "AstraSolMintCursors\\1.0.0",
+    "runName": "AstraSolMintCursorKeeper"
+  },
+  {
+    "repository": "astra-sol-mint-cursors",
+    "edition": "plus",
+    "directory": "AstraOriginalPixelsLargeArrowCursors\\1.0.0",
+    "runName": "AstraOriginalPixelsLargeArrowCursorsKeeper"
+  },
+  {
+    "repository": "bytedance-cursors",
+    "edition": "original",
+    "directory": "ByteDanceCursors\\1.0.0",
+    "runName": "ByteDanceCursorsKeeper"
+  },
+  {
+    "repository": "bytedance-cursors",
+    "edition": "plus",
+    "directory": "ByteDanceCursorsLargeArrow\\1.0.0",
+    "runName": "ByteDanceCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "chatgpt-dragon-cursors",
+    "edition": "original",
+    "directory": "ChatGPTDragonCursors\\1.0.0",
+    "runName": "ChatGPTDragonCursorsKeeper"
+  },
+  {
+    "repository": "chatgpt-dragon-cursors",
+    "edition": "plus",
+    "directory": "ChatGPTDragonCursorsLargeArrow\\1.0.0",
+    "runName": "ChatGPTDragonCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "claude-sisters-cursors",
+    "edition": "original",
+    "directory": "ClaudeCursors\\1.0.0",
+    "runName": "ClaudeCursorsKeeper"
+  },
+  {
+    "repository": "claude-sisters-cursors",
+    "edition": "plus",
+    "directory": "ClaudeCursorsLargeArrow\\1.0.0",
+    "runName": "ClaudeCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "DeepSeek-mint-cursors",
+    "edition": "original",
+    "directory": "DeepSeekMintCursors\\1.0.0",
+    "runName": "DeepSeekMintCursorKeeper"
+  },
+  {
+    "repository": "DeepSeek-mint-cursors",
+    "edition": "plus",
+    "directory": "DeepSeekMintCursorsLargeArrow\\1.0.0",
+    "runName": "DeepSeekMintCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "gemini-cursors",
+    "edition": "original",
+    "directory": "GeminiCursors\\1.0.0",
+    "runName": "GeminiCursorsKeeper"
+  },
+  {
+    "repository": "gemini-cursors",
+    "edition": "plus",
+    "directory": "GeminiCursorsLargeArrow\\1.0.0",
+    "runName": "GeminiCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "glm-cursors",
+    "edition": "original",
+    "directory": "GLMCursors\\1.0.0",
+    "runName": "GLMCursorsKeeper"
+  },
+  {
+    "repository": "glm-cursors",
+    "edition": "plus",
+    "directory": "GLMCursorsLargeArrow\\1.0.0",
+    "runName": "GLMCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "grok-cursors",
+    "edition": "original",
+    "directory": "GrokCursors\\1.0.0",
+    "runName": "GrokCursorsKeeper"
+  },
+  {
+    "repository": "grok-cursors",
+    "edition": "plus",
+    "directory": "GrokCursorsLargeArrow\\1.0.0",
+    "runName": "GrokCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "kimi-cursors",
+    "edition": "original",
+    "directory": "KimiCursors\\1.0.0",
+    "runName": "KimiCursorsKeeper"
+  },
+  {
+    "repository": "kimi-cursors",
+    "edition": "plus",
+    "directory": "KimiCursorsLargeArrow\\1.0.0",
+    "runName": "KimiCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "mimo-cursors",
+    "edition": "original",
+    "directory": "MiMoCursors\\1.0.0",
+    "runName": "MiMoCursorsKeeper"
+  },
+  {
+    "repository": "mimo-cursors",
+    "edition": "plus",
+    "directory": "MiMoCursorsLargeArrow\\1.0.0",
+    "runName": "MiMoCursorsLargeArrowKeeper"
+  },
+  {
+    "repository": "qwen-cursors",
+    "edition": "original",
+    "directory": "QwenCursors\\1.0.0",
+    "runName": "QwenCursorsKeeper"
+  },
+  {
+    "repository": "qwen-cursors",
+    "edition": "plus",
+    "directory": "QwenCursorsLargeArrow\\1.0.0",
+    "runName": "QwenCursorsLargeArrowKeeper"
+  }
+]

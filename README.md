@@ -1,3 +1,15 @@
+## v1.3.2：非避让版大尺寸完整功能光标
+
+[下载 v1.3.2 完整非避让包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.3.2/DeepSeek-mint-cursors-non-avoidance-v1.3.2.zip) · [本版发布页](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.3.2) · [验证范围与已知边界](cursor-family-v1.3.2/VALIDATION.md) · [可编辑源码](cursor-family-v1.3.2/)
+
+大档位使用完整原生动画功能符号，系统光标大小随档位变化；Windows缩放继续放大功能符号，人物保留像素大小并在高DPI整体留出间距。完整解压ZIP后进入角色文件夹，双击普通或Plus档位CMD启用；关闭使用“关闭并恢复.cmd”。无需另外安装Python或PowerShell 7。
+
+本次仅更新非避让版；需要提示框/输入法避让时，仍下载原有[v1.3.1完整避让包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.3.1/DeepSeek-mint-cursors-avoidance-v1.3.1.zip)，不将未改避让包改称v1.3.2。
+
+Win10/Win11完成代表验证。Win11 200%真实重启后关闭，原设置与尺寸恢复；两个DPI感知观察中，部分默认图形有栅格差异、4种热点每轴最多1物理像素差，已核对完整默认图形且无候选残留。详情见验证说明，不承诺跨重启精确像素缓存回滚。旧版下载和以下历史说明保留。
+
+---
+
 ## v1.3.1：全系列三项共同修复
 
 [下载 v1.3.1 两线安装包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.3.1) · [验证范围与已知限制](cursor-family-v1.3.1/VALIDATION.md) · [本版源码](cursor-family-v1.3.1/)

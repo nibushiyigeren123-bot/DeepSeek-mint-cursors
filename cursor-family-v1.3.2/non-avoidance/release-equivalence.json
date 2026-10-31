@@ -1,0 +1,27 @@
+{
+  "version": "v1.3.2",
+  "tested_rc1_zip_name": "DeepSeek-mint-cursors-non-avoidance-v1.3.2-rc1.zip",
+  "tested_rc1_sha256": "da2776d21c9d25c758da8f45ad3871352d697a8cd88b84b38560461164e8e874",
+  "runtime_identity": {
+    "runtime/AICursorFamilyOriginalR1.exe": "48ec1b43be830981062eccf2fecbd25b8ee167b6e797906b8958030bafdf26be",
+    "control.ps1": "ec8dd65c9f3b6ca76d281365a1f1ef3b4f86ba731f30c6f389e5fd3cbc8eeb89",
+    "ControlNative.cs": "462a58b46ca185a2681786f9724f575ce31c4cf187d11b4cffce8dfcab012b36"
+  },
+  "unchanged_existing_members": 2085,
+  "unchanged_media_members": 2041,
+  "unchanged_profile_manifests": 13,
+  "unchanged_cmd_members": 15,
+  "modified_existing_members": [
+    "README.md",
+    "技术说明.md",
+    "runtime/characters.json",
+    "payload-hashes.json"
+  ],
+  "added_members": [
+    "VALIDATION.md",
+    "release-equivalence.json"
+  ],
+  "deleted_members": [],
+  "configuration_only_difference": "characters.json scheme string replaces v1.3.2-rc1 with v1.3.2; all other fields and profile order unchanged",
+  "qa_basis": "Accepted local RC1 representative VM tests with documented Win11 bootStop boundary; not a new full runtime matrix."
+}
