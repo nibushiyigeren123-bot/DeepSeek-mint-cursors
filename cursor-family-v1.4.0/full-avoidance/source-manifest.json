@@ -1,0 +1,43 @@
+{
+  "version": "v1.4.0",
+  "repository": "DeepSeek-mint-cursors",
+  "copied_member_sha256": {
+    "ControlNative.cs": "4e4c6d8a60175340e0b56490d75a8b445a0594a6227f7602dd1bebd6d9d19701",
+    "VALIDATION.md": "95f05bd4982c9293728ee1447c63c4a783632827f79f985e549ab0632970173f",
+    "control.ps1": "53dd0be1faf0e7f1a9a46017d701cfaaea6f38ebd1c734f238938218eee15449",
+    "payload-hashes.json": "6024892e30aded3d64a11f31cc2049e5c0d5d0cdb3c79e7063afeb047482c98d",
+    "publication-equivalence.json": "c1d8656f08be462c850dd64ad5b62de87cd0a5fe4bd79d2d287ab5ffcd68cb75",
+    "rebuild.ps1": "04000ed0b9f6cdf2063c0508129f2a41c26f735ee267440c5de6e80245aeb56b",
+    "runtime/assets/deepseek-original-128/manifest.json": "1ae931a6e050ed05ff20c9dd607e4f1c02bf607d7547fd0536735effa913e14b",
+    "runtime/assets/deepseek-original-256/manifest.json": "f13efd90f9aae3c3c14147df4b9134345e2ee8b164c717f102c9502ef830f55f",
+    "runtime/assets/deepseek-original-32/manifest.json": "7caf4a7ac99054279214064f3beaf9d96a14cbd53fe06b891694df95ed2b7800",
+    "runtime/assets/deepseek-original-48/manifest.json": "9857b2d06d1c8176d81a67b7825acbd230f454826f2abf57ff9b781d4e32de8d",
+    "runtime/assets/deepseek-original-64/manifest.json": "50d7f8fd5bb5219676a899f42fb075081d4675ea52e8a1f83c0275c0fb12c7bc",
+    "runtime/assets/deepseek-original-96/manifest.json": "736a62aeff44d476ba50b82d2f385b9673480f4062e1b3c4a6ff4dabd6571dc5",
+    "runtime/assets/deepseek-plus-128/manifest.json": "c0b498a24e19234f0b5c762685c0d1df593701673e4f84ecde16f9292f14b3e2",
+    "runtime/assets/deepseek-plus-256/manifest.json": "69854e9a630e7cbd24ffe26f81988b9223099478b0f5712164de37b014be7844",
+    "runtime/assets/deepseek-plus-32/manifest.json": "9d64f650e75c95a4959cbff5d3e58d595d28fe18433acad541b882fc6e0715dc",
+    "runtime/assets/deepseek-plus-48/manifest.json": "298242ce73d4c28d9772c9965407e550f9f636ca432d34ddedc410b1640b1c4c",
+    "runtime/assets/deepseek-plus-64/manifest.json": "744112a6f377aa2fea980e9800ff3e5cdcb100eb879596e586cb1e844261f8de",
+    "runtime/assets/deepseek-plus-72/manifest.json": "fbd1e246a7ba0227e1006df1346b55e916c367d62b7bbb5a281519367d21b022",
+    "runtime/assets/deepseek-plus-96/manifest.json": "d920f79991a078b071787bc75db89c1676938327a67873922bbbd25bd268deca",
+    "runtime/avoidance-settings.json": "3744c26b9cb2c1e41440e48514702f3c0b692da2d37fd1a7e34dd7bbc1e2d113",
+    "runtime/characters.json": "0d0a28cd6893a874b186a00d2a7426f6be3959b39b5884d3f471af347325f1af",
+    "source/Avatar.cs": "886d7bea0ff9a1f8e2299ce48533249e299da8d9794ebd6e422b264728a30b8d",
+    "source/AvatarHost.cs": "65facb0698690f7dd3c3566e13fac2a304a5a272488f074904caf6823b3b6fff",
+    "source/CharacterFrames.cs": "7d2bda24ba278a1f2ff6228a99b95dafb4e057789844ee63f6537ad3c2f4377f",
+    "source/DisplayRefresh.cs": "5b8cb544f3b8471759f8607f7c188ae1f66b1bdcc83b53995005a36d2ebc4233",
+    "source/IdleFade.cs": "ca590912c6d10f6e2b4bec6d30a3184305e1e569cf3fc759a4c7a50be3e8b063",
+    "source/NativeCursor.cs": "868201109c6440f385f977d9cdc3c8a7f6135eae804d079691928a77431251c0",
+    "source/PopupCache.cs": "3759907bb353870c7985a843bdeb5c7051cb5fae97b2b798006b78447f26f5ae",
+    "source/Program.cs": "80bd868f86b0b2f3c32e00b036ac34af6fa7363dc03d54f566fa7b3786ec2efe",
+    "source/Win.cs": "f3ed471c2560fd3195f12112795d29eb6ab08778fd08967d708e91cfad4959bf",
+    "技术说明.md": "baa5be1693ec69182b87de2b67ee2ee672f1ab2dd9572129691ef01e2f359e5d"
+  },
+  "fullZip": {
+    "name": "DeepSeek-mint-cursors-full-avoidance-v1.4.0.zip",
+    "bytes": 40627679,
+    "sha256": "2e588de00a66a37fc235e9a2827fb59200ab225c46268ab9c47b0cad794ae024"
+  },
+  "selfContainedInstallation": false
+}

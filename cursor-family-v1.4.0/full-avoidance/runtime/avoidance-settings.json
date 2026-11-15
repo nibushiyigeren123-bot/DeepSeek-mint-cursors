@@ -1,0 +1,8 @@
+{
+  "idleFadeEnabled": true,
+  "popupClippingEnabled": true,
+  "dwellMilliseconds": 800,
+  "fadeOutMilliseconds": 180,
+  "fadeInMilliseconds": 80,
+  "motionThresholdLogicalPixels": 3
+}

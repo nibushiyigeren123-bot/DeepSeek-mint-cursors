@@ -1,3 +1,13 @@
+## v1.4.0 完全避让版
+
+[完整ZIP](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.4.0/DeepSeek-mint-cursors-full-avoidance-v1.4.0.zip) · [发布说明](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.4.0) · [源码](cursor-family-v1.4.0/full-avoidance) · [11系列与合集](https://github.com/nibushiyigeren123-bot/ai-cursors-full-avoidance)
+
+人物停留约800ms后用180ms淡出，移动约80ms恢复，拖动保持人物显示。原生功能光标与点击热点保留。Win10/Win11的100%/150%代表场景通过，全部208档静态核验完成。用户主机体验尚待反馈，详情见[验证范围](cursor-family-v1.4.0/VALIDATION.md)。
+
+下载完整ZIP并解压，从角色目录双击普通/Plus CMD。关闭使用根目录“关闭并恢复.cmd”。以下保留历史说明与v1.3.2非避让/v1.3.1避让入口。
+
+---
+
 ## v1.3.2：非避让版大尺寸完整功能光标
 
 [下载 v1.3.2 完整非避让包](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/download/v1.3.2/DeepSeek-mint-cursors-non-avoidance-v1.3.2.zip) · [本版发布页](https://github.com/nibushiyigeren123-bot/DeepSeek-mint-cursors/releases/tag/v1.3.2) · [验证范围与已知边界](cursor-family-v1.3.2/VALIDATION.md) · [可编辑源码](cursor-family-v1.3.2/)

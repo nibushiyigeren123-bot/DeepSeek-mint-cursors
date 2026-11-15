@@ -1,0 +1,30 @@
+{
+  "version": "v1.4.0",
+  "kind": "full-avoidance",
+  "runtimeSha256": "0e7a173da8c96ac7e1d21386966e90095b0083e2959c9eba4436406a5a20ff23",
+  "assets": [
+    {
+      "name": "DeepSeek-mint-cursors-full-avoidance-v1.4.0.zip",
+      "bytes": 40627679,
+      "sha256": "2e588de00a66a37fc235e9a2827fb59200ab225c46268ab9c47b0cad794ae024"
+    },
+    {
+      "name": "DeepSeek-mint-cursors-full-avoidance-source-v1.4.0.zip",
+      "bytes": 302386,
+      "sha256": "f7a941e4e2b47028da473aa7ab8b34a4fe3d46f9851db93a8e09176b075ed7bf"
+    },
+    {
+      "name": "VALIDATION.md",
+      "bytes": 2599,
+      "sha256": "95f05bd4982c9293728ee1447c63c4a783632827f79f985e549ab0632970173f"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 237,
+      "sha256": "590d3159693b2f9a26e107ec0e7b03640f2217c1e77573159702eac74e6c7d40"
+    }
+  ],
+  "originalCmdInvocationPreserved": true,
+  "cmdWaitingMessageAdded": 13,
+  "originalMediaUnchanged": true
+}
